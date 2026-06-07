@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oracle Cloud Infrastructure (OCI) | Bespoke AI Technologies</title>
+  <meta name="description" content="OCI architecture, migration, and managed services. Design scalable, secure Oracle Cloud Infrastructure for your enterprise." />
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/favicon.jpg" class="nav-favicon" alt="Bespoke AI Technologies" />
+      <span class="nav-brand-name">
+        <span class="brand-main">BESPOKE AI</span>
+        <span class="brand-sub">TECHNOLOGIES</span>
+      </span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="drop-trigger">Oracle Solutions &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">Cloud Applications</div>
+          <a href="oracle-fusion.html"><span class="icon">&#9729;&#65039;</span> Oracle Fusion Cloud</a>
+          <a href="oracle-fusion.html#erp"><span class="icon">&#128200;</span> Oracle ERP Cloud</a>
+          <a href="oracle-fusion.html#hcm"><span class="icon">&#128101;</span> Oracle HCM Cloud</a>
+          <a href="oracle-fusion.html#scm"><span class="icon">&#128230;</span> Oracle SCM Cloud</a>
+          <a href="oracle-fusion.html#epm"><span class="icon">&#128202;</span> Oracle EPM Cloud</a>
+          <div class="drop-label" style="margin-top:8px;">Infrastructure</div>
+          <a href="oci.html"><span class="icon">&#127968;</span> Oracle Cloud Infrastructure</a>
+          <a href="cloud.html"><span class="icon">&#128279;</span> Cloud &amp; Integration</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <span class="drop-trigger">AI Consulting &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">AI Advisory</div>
+          <a href="ai-consulting.html"><span class="icon">&#129504;</span> AI Readiness Assessment</a>
+          <a href="ai-consulting.html#process"><span class="icon">&#9881;&#65039;</span> Business Process AI</a>
+          <a href="ai-consulting.html#genai"><span class="icon">&#128161;</span> Generative AI Consulting</a>
+          <a href="ai-consulting.html#agents"><span class="icon">&#129302;</span> AI Agent Development</a>
+          <a href="ai-consulting.html#oracle-ai"><span class="icon">&#128200;</span> Oracle Fusion AI</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+  <div class="container ph-inner">
+    <span class="label">Oracle Cloud Infrastructure</span>
+    <h1>Build &amp; Scale on <span class="gradient-text">OCI</span></h1>
+    <p>We design, migrate, and operate enterprise workloads on Oracle Cloud Infrastructure &mdash; with a focus on performance, security, cost optimization, and seamless Oracle Fusion Cloud connectivity.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-primary">Talk to an OCI Architect &rarr;</a>
+      <a href="#services" class="btn btn-white-outline">OCI Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- OCI intro -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="two-col fade-up">
+      <div>
+        <span class="label">Why OCI</span>
+        <h2 style="font-size:clamp(1.6rem,2.5vw,2.2rem);margin-bottom:16px;">Cloud is not just a place &mdash; it&rsquo;s a strategy</h2>
+        <p style="color:var(--txt-2);line-height:1.75;margin-bottom:16px;">At Bespoke AI Technologies, we design and implement scalable OCI architectures that align with your enterprise goals. From Oracle Cloud Infrastructure to multi-cloud integrations, our solutions ensure seamless connectivity, security, and performance.</p>
+        <p style="color:var(--txt-2);line-height:1.75;margin-bottom:32px;">We specialize in cloud migration &amp; modernization, API-driven integrations across platforms, and secure, scalable infrastructure design that keeps pace with your growth &mdash; including OCI AI and Generative AI capabilities.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary">Get OCI Assessment &rarr;</a>
+          <a href="cloud.html" class="btn btn-outline">Integration Services</a>
+        </div>
+      </div>
+      <div class="visual-box">
+        <div class="vbox-card">
+          <div class="vbox-icon">&#9660;</div>
+          <div class="vbox-val">40%</div>
+          <div class="vbox-lbl">Avg OCI cost reduction vs other clouds</div>
+        </div>
+        <div class="vbox-card">
+          <div class="vbox-icon">&#9650;</div>
+          <div class="vbox-val" style="color:var(--gold);">99.9%</div>
+          <div class="vbox-lbl">SLA target for OCI enterprise workloads</div>
+        </div>
+        <div class="vbox-card">
+          <div class="vbox-icon">&#9729;&#65039;</div>
+          <div class="vbox-val" style="color:var(--oracle-red);">Native</div>
+          <div class="vbox-lbl">Oracle Fusion &amp; Autonomous DB integration</div>
+        </div>
+        <div class="vbox-card">
+          <div class="vbox-icon">&#128274;</div>
+          <div class="vbox-val">Zero</div>
+          <div class="vbox-lbl">Egress cost for Oracle SaaS data</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OCI Services Tiles -->
+<section class="section bg-gray" id="services">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">OCI Service Portfolio</span>
+      <h2>Complete OCI Coverage</h2>
+      <p>From bare metal compute to autonomous databases and AI services &mdash; we architect, deploy, and manage the full OCI stack for your enterprise.</p>
+    </div>
+    <div class="oci-grid">
+      <div class="oci-tile fade-up">
+        <div class="icon">&#128187;</div>
+        <h4>Compute &amp; VM</h4>
+        <p>Bare Metal, VM instances, autoscaling, and Container Engine for Kubernetes (OKE)</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#128668;</div>
+        <h4>Autonomous Database</h4>
+        <p>Oracle Autonomous Data Warehouse, Transaction Processing, and JSON Database on OCI</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#128450;</div>
+        <h4>Object &amp; Block Storage</h4>
+        <p>Object Storage, Block Volumes, File Storage, and Archive Storage for all workloads</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#127760;</div>
+        <h4>Networking (VCN)</h4>
+        <p>Virtual Cloud Networks, FastConnect, load balancing, DNS, and VPN connectivity</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#128274;</div>
+        <h4>Security &amp; Identity</h4>
+        <p>IAM, Cloud Guard, Security Zones, WAF, Key Management, and Vulnerability Scanning</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#129302;</div>
+        <h4>AI &amp; ML Services</h4>
+        <p>OCI AI Services, Oracle Digital Assistant, Data Science Platform, and Generative AI</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#128279;</div>
+        <h4>Oracle Integration Cloud</h4>
+        <p>OIC 3.0, Process Automation, API Management, and B2B document exchange on OCI</p>
+      </div>
+      <div class="oci-tile fade-up">
+        <div class="icon">&#128202;</div>
+        <h4>Observability &amp; APM</h4>
+        <p>OCI Monitoring, Logging, Notifications, Service Connector Hub, and Application Performance Management</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What we do for OCI -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Our OCI Practice</span>
+      <h2>What We Do on OCI</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card fade-up">
+        <div class="icon-box icon-teal">&#128268;</div>
+        <h3>OCI Migration &amp; Modernization</h3>
+        <p>Migrate on-premise Oracle workloads, databases, and applications to OCI &mdash; lift-and-shift to full re-architecture, with zero unplanned downtime.</p>
+      </div>
+      <div class="card card-red fade-up">
+        <div class="icon-box icon-red">&#128209;</div>
+        <h3>OCI Architecture &amp; Design</h3>
+        <p>Landing Zone setup, security hardening, network topology, multi-region design, and disaster recovery architecture for enterprise-grade OCI environments.</p>
+      </div>
+      <div class="card card-gold fade-up">
+        <div class="icon-box icon-gold">&#128200;</div>
+        <h3>OCI Cost Optimization</h3>
+        <p>Right-sizing compute, storage tiering, reserved capacity planning, and automated governance to reduce OCI spend by an average of 35&ndash;40%.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-inner fade-up">
+      <span class="label label-white">OCI Assessment</span>
+      <h2>Start With a Free OCI Assessment</h2>
+      <p>We&rsquo;ll evaluate your current infrastructure, Oracle workload requirements, and provide a detailed OCI migration roadmap &mdash; at no cost.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Request OCI Assessment &rarr;</a>
+        <a href="ai-consulting.html" class="btn btn-gold">AI Readiness Assessment</a>
+        <a href="oracle-fusion.html" class="btn btn-white-outline">Oracle Fusion Cloud</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-id">
+          <img src="images/favicon.jpg" class="footer-favicon" alt="Bespoke AI Technologies" />
+          <span class="footer-brand-name">
+            <span class="footer-brand-main">BESPOKE AI</span>
+            <span class="footer-brand-sub">TECHNOLOGIES</span>
+          </span>
+        </a>
+        <p>Oracle Fusion Cloud and OCI specialists &mdash; empowering your business with tailored AI and expert guidance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>OCI Services</h4>
+        <ul>
+          <li><a href="oci.html">Compute &amp; Networking</a></li>
+          <li><a href="oci.html">Autonomous Database</a></li>
+          <li><a href="oci.html">AI &amp; ML Services</a></li>
+          <li><a href="oci.html">Security &amp; Compliance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>AI Consulting</h4>
+        <ul>
+          <li><a href="ai-consulting.html">AI Readiness</a></li>
+          <li><a href="ai-consulting.html#agents">AI Agents</a></li>
+          <li><a href="ai-consulting.html#genai">Generative AI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="apply.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+      <div class="footer-badges">
+        <span class="footer-badge">OCI Specialists</span>
+        <span class="footer-badge">Oracle Certified</span>
+        <span class="footer-badge">AI Consulting</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

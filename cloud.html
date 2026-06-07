@@ -3,164 +3,207 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cloud Architecture &amp; Integration | Bespoke AI Technologies Inc</title>
-  <meta name="description" content="Scalable cloud infrastructure design and seamless system integrations for enterprise organizations." />
+  <title>Cloud Architecture &amp; Integration | Bespoke AI Technologies</title>
+  <meta name="description" content="Oracle Integration Cloud, API-driven integrations, and cloud architecture services connecting Oracle Fusion Cloud with your enterprise ecosystem." />
   <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo.jpg" alt="Bespoke AI Technologies" />
-      </a>
-      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <span class="dropdown-trigger">IT Services &#9662;</span>
-          <div class="dropdown-menu">
-            <a href="it-services.html">All Services</a>
-            <a href="erp.html">ERP Solutions</a>
-            <a href="cloud.html">Cloud Architecture &amp; Integration</a>
-          </div>
-        </li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <section class="page-hero">
-    <div class="container">
-      <p class="section-label">IT Services / Cloud</p>
-      <h1>Cloud Architecture &amp; Integration</h1>
-      <p>Scalable, secure cloud infrastructure and seamless integrations that connect your entire technology ecosystem and accelerate business outcomes.</p>
-    </div>
-  </section>
-
-  <section style="padding:100px 0;">
-    <div class="container">
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:start;">
-        <div>
-          <p class="section-label">Cloud Services</p>
-          <h2 class="section-title">Build, Migrate &amp; Integrate in the Cloud</h2>
-          <p style="color:var(--text-md); margin-bottom:32px; line-height:1.7;">Whether you&rsquo;re migrating legacy systems to the cloud or architecting a new cloud-native platform, we design solutions that are secure, scalable, and aligned with your business objectives.</p>
-          <div class="about-features">
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p><strong>Cloud Strategy &amp; Assessment:</strong> Evaluate your current infrastructure, define your cloud roadmap, and select the right cloud model &mdash; public, private, or hybrid.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p><strong>Architecture Design:</strong> Purpose-built cloud architectures that prioritize scalability, security, cost-efficiency, and disaster recovery.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p><strong>Migration Services:</strong> Lift-and-shift to full re-architecture &mdash; we handle complex migrations with minimal downtime and risk.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p><strong>API &amp; System Integration:</strong> Connect cloud platforms, SaaS tools, and legacy systems through robust API integrations and middleware solutions.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p><strong>DevOps &amp; Automation:</strong> CI/CD pipelines, infrastructure-as-code, and cloud automation that accelerate delivery and reduce manual overhead.</p>
-            </div>
-          </div>
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/favicon.jpg" class="nav-favicon" alt="Bespoke AI Technologies" />
+      <span class="nav-brand-name">
+        <span class="brand-main">BESPOKE AI</span>
+        <span class="brand-sub">TECHNOLOGIES</span>
+      </span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="drop-trigger">Oracle Solutions &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">Cloud Applications</div>
+          <a href="oracle-fusion.html"><span class="icon">&#9729;&#65039;</span> Oracle Fusion Cloud</a>
+          <a href="oracle-fusion.html#erp"><span class="icon">&#128200;</span> Oracle ERP Cloud</a>
+          <a href="oracle-fusion.html#hcm"><span class="icon">&#128101;</span> Oracle HCM Cloud</a>
+          <a href="oracle-fusion.html#scm"><span class="icon">&#128230;</span> Oracle SCM Cloud</a>
+          <a href="oracle-fusion.html#epm"><span class="icon">&#128202;</span> Oracle EPM Cloud</a>
+          <div class="drop-label" style="margin-top:8px;">Infrastructure</div>
+          <a href="oci.html"><span class="icon">&#127968;</span> Oracle Cloud Infrastructure</a>
+          <a href="cloud.html"><span class="icon">&#128279;</span> Cloud &amp; Integration</a>
         </div>
-        <div>
-          <div style="background:var(--gray-bg); border-radius:16px; padding:40px; border:1px solid var(--gray-lt);">
-            <h3 style="font-size:1.1rem; font-weight:700; color:var(--navy); margin-bottom:24px;">Cloud Platforms</h3>
-            <div style="display:flex; flex-wrap:wrap; gap:12px; margin-bottom:36px;">
-              <span class="partner-badge">Amazon Web Services</span>
-              <span class="partner-badge">Microsoft Azure</span>
-              <span class="partner-badge">Google Cloud Platform</span>
-              <span class="partner-badge">IBM Cloud</span>
-              <span class="partner-badge">Oracle Cloud</span>
-            </div>
-            <h3 style="font-size:1.1rem; font-weight:700; color:var(--navy); margin-bottom:16px;">Integration Technologies</h3>
-            <div style="display:flex; flex-wrap:wrap; gap:10px;">
-              <span class="partner-badge">REST / GraphQL APIs</span>
-              <span class="partner-badge">MuleSoft</span>
-              <span class="partner-badge">Azure Integration</span>
-              <span class="partner-badge">AWS Lambda</span>
-              <span class="partner-badge">Kubernetes</span>
-              <span class="partner-badge">Terraform</span>
-            </div>
-          </div>
-          <div style="margin-top:28px; display:grid; grid-template-columns:1fr 1fr; gap:16px;">
-            <div class="metric-card" style="background:var(--gray-bg); border-radius:12px; padding:24px; text-align:center; box-shadow:none;">
-              <div class="metric-number" style="font-size:1.8rem;">&darr;40%</div>
-              <div class="metric-label">Avg. Cost Reduction</div>
-            </div>
-            <div class="metric-card" style="background:var(--gray-bg); border-radius:12px; padding:24px; text-align:center; box-shadow:none;">
-              <div class="metric-number" style="font-size:1.8rem;">99.9%</div>
-              <div class="metric-label">Uptime Target</div>
-            </div>
-          </div>
+      </li>
+      <li class="dropdown">
+        <span class="drop-trigger">AI Consulting &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">AI Advisory</div>
+          <a href="ai-consulting.html"><span class="icon">&#129504;</span> AI Readiness Assessment</a>
+          <a href="ai-consulting.html#process"><span class="icon">&#9881;&#65039;</span> Business Process AI</a>
+          <a href="ai-consulting.html#genai"><span class="icon">&#128161;</span> Generative AI Consulting</a>
+          <a href="ai-consulting.html#agents"><span class="icon">&#129302;</span> AI Agent Development</a>
+          <a href="ai-consulting.html#oracle-ai"><span class="icon">&#128200;</span> Oracle Fusion AI</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+  <div class="container ph-inner">
+    <span class="label">Cloud Architecture &amp; Integration</span>
+    <h1>Connect. Integrate. <span class="gradient-text">Automate.</span></h1>
+    <p>Oracle Integration Cloud and cloud architecture services that seamlessly connect Oracle Fusion Cloud with your enterprise applications &mdash; driving automation at scale.</p>
+    <a href="contact.html" class="btn btn-primary">Request Integration Assessment &rarr;</a>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Integration Capabilities</span>
+      <h2>Oracle Integration Cloud (OIC) &amp; Beyond</h2>
+      <p>We specialize in cloud migration &amp; modernization, API-driven integrations across platforms, and secure, scalable infrastructure design.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card fade-up">
+        <div class="icon-box icon-teal">&#128279;</div>
+        <h3>Oracle Integration Cloud 3.0</h3>
+        <p>Design and deploy OIC integration flows using visual builder, pre-built adapters, and process automation &mdash; connecting Oracle Fusion with any system.</p>
+        <div class="process-area">
+          <span class="process-tag">OIC 3.0</span>
+          <span class="process-tag">Oracle Adapters</span>
+          <span class="process-tag">REST/SOAP</span>
+        </div>
+      </div>
+      <div class="card card-red fade-up">
+        <div class="icon-box icon-red">&#9881;&#65039;</div>
+        <h3>API Management &amp; Gateway</h3>
+        <p>Design, secure, and publish enterprise APIs on OCI API Gateway &mdash; with rate limiting, authentication, and full lifecycle management.</p>
+        <div class="process-area">
+          <span class="process-tag process-tag-red">API Gateway</span>
+          <span class="process-tag process-tag-red">REST APIs</span>
+          <span class="process-tag process-tag-red">OAuth</span>
+        </div>
+      </div>
+      <div class="card card-gold fade-up">
+        <div class="icon-box icon-gold">&#128260;</div>
+        <h3>Cloud Migration &amp; Modernization</h3>
+        <p>Lift on-premise workloads to OCI, modernize legacy integrations to event-driven architectures, and replace batch with real-time data flows.</p>
+        <div class="process-area">
+          <span class="process-tag process-tag-gold">Cloud Migration</span>
+          <span class="process-tag process-tag-gold">Event Streaming</span>
+        </div>
+      </div>
+      <div class="card fade-up">
+        <div class="icon-box icon-teal">&#128203;</div>
+        <h3>File-Based Integration (FBDI)</h3>
+        <p>Oracle Fusion FBDI, HDL, ADFDI, and WebCenter Content integrations &mdash; automated, scheduled, and monitored on OIC or OCI.</p>
+        <div class="process-area">
+          <span class="process-tag">FBDI</span>
+          <span class="process-tag">HDL</span>
+          <span class="process-tag">ADFDI</span>
+        </div>
+      </div>
+      <div class="card card-red fade-up">
+        <div class="icon-box icon-red">&#128202;</div>
+        <h3>Process Automation (BPEL/BPM)</h3>
+        <p>Automate complex Oracle Fusion approval workflows, SOA-based processes, and business rule engines using OIC Process and BPEL.</p>
+        <div class="process-area">
+          <span class="process-tag process-tag-red">BPEL</span>
+          <span class="process-tag process-tag-red">Process Cloud</span>
+        </div>
+      </div>
+      <div class="card card-gold fade-up">
+        <div class="icon-box icon-gold">&#128274;</div>
+        <h3>Secure Cloud Architecture</h3>
+        <p>End-to-end secure cloud architecture for Oracle workloads &mdash; encryption, identity federation, network segmentation, and compliance controls.</p>
+        <div class="process-area">
+          <span class="process-tag process-tag-gold">OCI Security</span>
+          <span class="process-tag process-tag-gold">IAM</span>
+          <span class="process-tag process-tag-gold">WAF</span>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="cta-banner">
-    <div class="container">
-      <h2>Modernize Your Infrastructure</h2>
-      <p>Ready to move to the cloud or optimize what you have? Let&rsquo;s design the right architecture for your business.</p>
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-inner fade-up">
+      <span class="label label-white">Integration Assessment</span>
+      <h2>Map Your Oracle Integration Landscape</h2>
+      <p>Start with a free integration assessment &mdash; we&rsquo;ll document your current integrations, identify gaps, and design an OIC-first target architecture.</p>
       <div class="cta-actions">
-        <a href="contact.html" class="btn btn-primary">Schedule a Consultation &rarr;</a>
-        <a href="it-services.html" class="btn btn-outline">See All Services</a>
+        <a href="contact.html" class="btn btn-primary">Get Free Assessment &rarr;</a>
+        <a href="oci.html" class="btn btn-white-outline">Explore OCI</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo.jpg" alt="Bespoke AI Technologies" style="height:48px;" />
-          </a>
-          <p>A full-service AI and IT consulting firm serving mid-sized and Fortune 1000 companies with tailored technology solutions. Based in North Carolina.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="it-services.html">IT Services</a></li>
-            <li><a href="erp.html">ERP Solutions</a></li>
-            <li><a href="cloud.html">Cloud Architecture</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="apply.html">Careers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="contact.html">Get Support</a></li>
-            <li><a href="contact.html">Request a Demo</a></li>
-          </ul>
-        </div>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-id">
+          <img src="images/favicon.jpg" class="footer-favicon" alt="Bespoke AI Technologies" />
+          <span class="footer-brand-name">
+            <span class="footer-brand-main">BESPOKE AI</span>
+            <span class="footer-brand-sub">TECHNOLOGIES</span>
+          </span>
+        </a>
+        <p>Oracle Fusion Cloud and OCI specialists &mdash; empowering your business with tailored AI and expert guidance.</p>
       </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
-        <span>North Carolina, USA</span>
+      <div class="footer-col">
+        <h4>Integration</h4>
+        <ul>
+          <li><a href="cloud.html">OIC 3.0</a></li>
+          <li><a href="cloud.html">API Management</a></li>
+          <li><a href="cloud.html">Process Automation</a></li>
+          <li><a href="cloud.html">FBDI / HDL</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>AI Consulting</h4>
+        <ul>
+          <li><a href="ai-consulting.html">AI Readiness</a></li>
+          <li><a href="ai-consulting.html#agents">AI Agents</a></li>
+          <li><a href="ai-consulting.html#genai">Generative AI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="apply.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
     </div>
-  </footer>
-
-  <script src="js/main.js"></script>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+      <div class="footer-badges">
+        <span class="footer-badge">Oracle Specialists</span>
+        <span class="footer-badge">OCI Certified</span>
+        <span class="footer-badge">AI Consulting</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>

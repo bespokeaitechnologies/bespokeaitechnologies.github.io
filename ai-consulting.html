@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Consulting &amp; Readiness Assessment | Bespoke AI Technologies</title>
+  <meta name="description" content="AI Readiness Assessment, Business Process AI, Generative AI Consulting, AI Agent Development, and Oracle Fusion AI &mdash; empowering your business with tailored AI and expert guidance." />
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/favicon.jpg" class="nav-favicon" alt="Bespoke AI Technologies" />
+      <span class="nav-brand-name">
+        <span class="brand-main">BESPOKE AI</span>
+        <span class="brand-sub">TECHNOLOGIES</span>
+      </span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="drop-trigger">Oracle Solutions &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">Cloud Applications</div>
+          <a href="oracle-fusion.html"><span class="icon">&#9729;&#65039;</span> Oracle Fusion Cloud</a>
+          <a href="oracle-fusion.html#erp"><span class="icon">&#128200;</span> Oracle ERP Cloud</a>
+          <a href="oracle-fusion.html#hcm"><span class="icon">&#128101;</span> Oracle HCM Cloud</a>
+          <a href="oracle-fusion.html#scm"><span class="icon">&#128230;</span> Oracle SCM Cloud</a>
+          <a href="oracle-fusion.html#epm"><span class="icon">&#128202;</span> Oracle EPM Cloud</a>
+          <div class="drop-label" style="margin-top:8px;">Infrastructure</div>
+          <a href="oci.html"><span class="icon">&#127968;</span> Oracle Cloud Infrastructure</a>
+          <a href="cloud.html"><span class="icon">&#128279;</span> Cloud &amp; Integration</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <span class="drop-trigger">AI Consulting &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">AI Advisory</div>
+          <a href="ai-consulting.html"><span class="icon">&#129504;</span> AI Readiness Assessment</a>
+          <a href="ai-consulting.html#process"><span class="icon">&#9881;&#65039;</span> Business Process AI</a>
+          <a href="ai-consulting.html#genai"><span class="icon">&#128161;</span> Generative AI Consulting</a>
+          <a href="ai-consulting.html#agents"><span class="icon">&#129302;</span> AI Agent Development</a>
+          <a href="ai-consulting.html#oracle-ai"><span class="icon">&#128200;</span> Oracle Fusion AI</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+  <div class="container ph-inner">
+    <span class="label">AI Consulting</span>
+    <h1>Enterprise <span class="gradient-text">AI Strategy</span><br/>&amp; Readiness</h1>
+    <p>&ldquo;Empowering your business with tailored AI and expert guidance&rdquo; &mdash; from readiness assessment to production AI agent deployment, we partner with you at every step.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-primary">Book Free AI Consult &rarr;</a>
+      <a href="#readiness" class="btn btn-white-outline">View Assessment Framework</a>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO PILLARS -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">AI Consulting Framework</span>
+      <h2>Five Dimensions of AI Transformation</h2>
+      <p>Our structured AI consulting methodology covers data, processes, technology, and people &mdash; delivering a complete picture of where you are and a clear roadmap to where you need to be.</p>
+    </div>
+    <div class="pillar-strip fade-up">
+      <div class="pillar-item">
+        <div class="pillar-icon">&#128202;</div>
+        <h4>AI Readiness</h4>
+        <p>Data quality, governance, availability, and security scored across 25+ dimensions</p>
+      </div>
+      <div class="pillar-item">
+        <div class="pillar-icon">&#9881;&#65039;</div>
+        <h4>Process AI</h4>
+        <p>Finance, HR, Supply Chain, and Customer Service AI automation opportunities</p>
+      </div>
+      <div class="pillar-item">
+        <div class="pillar-icon">&#128161;</div>
+        <h4>Generative AI</h4>
+        <p>Content generation, knowledge management, and customer support use cases</p>
+      </div>
+      <div class="pillar-item">
+        <div class="pillar-icon">&#129302;</div>
+        <h4>AI Agents</h4>
+        <p>Autonomous agents for repetitive tasks, multi-system operations, and approvals</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AI READINESS ASSESSMENT -->
+<section class="section bg-gray" id="readiness">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Step 1</span>
+      <h2>AI Readiness Assessment</h2>
+      <p>Before recommending AI solutions, we measure your organization&rsquo;s true readiness across five critical data dimensions &mdash; giving you an honest, actionable 0&ndash;100 AI Readiness Score.</p>
+    </div>
+
+    <div class="two-col fade-up" style="margin-bottom:48px;">
+      <div>
+        <h3 style="font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:24px;">Data Readiness Evaluation</h3>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+
+          <div style="background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:20px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+              <span style="font-size:1.2rem;">&#128202;</span>
+              <h4 style="font-size:0.95rem;font-weight:700;color:var(--navy);">Data Quality</h4>
+              <span class="tag tag-teal" style="margin-left:auto;">Critical</span>
+            </div>
+            <p style="font-size:0.83rem;color:var(--txt-2);line-height:1.65;margin-bottom:10px;">Completeness, accuracy, consistency, and timeliness of your enterprise data. We evaluate source system health, duplicate rates, and data enrichment opportunities.</p>
+            <div class="process-area">
+              <span class="process-tag">Completeness</span>
+              <span class="process-tag">Accuracy</span>
+              <span class="process-tag">Consistency</span>
+              <span class="process-tag">Timeliness</span>
+            </div>
+          </div>
+
+          <div style="background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:20px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+              <span style="font-size:1.2rem;">&#128274;</span>
+              <h4 style="font-size:0.95rem;font-weight:700;color:var(--navy);">Data Governance</h4>
+              <span class="tag tag-gold" style="margin-left:auto;">High Priority</span>
+            </div>
+            <p style="font-size:0.83rem;color:var(--txt-2);line-height:1.65;margin-bottom:10px;">Policies, processes, and accountability for data management. Data ownership, stewardship, cataloguing, and lineage documentation assessed against AI requirements.</p>
+            <div class="process-area">
+              <span class="process-tag process-tag-gold">Ownership</span>
+              <span class="process-tag process-tag-gold">Cataloguing</span>
+              <span class="process-tag process-tag-gold">Lineage</span>
+              <span class="process-tag process-tag-gold">Policies</span>
+            </div>
+          </div>
+
+          <div style="background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:20px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+              <span style="font-size:1.2rem;">&#128279;</span>
+              <h4 style="font-size:0.95rem;font-weight:700;color:var(--navy);">Data Availability &amp; Integration</h4>
+            </div>
+            <p style="font-size:0.83rem;color:var(--txt-2);line-height:1.65;margin-bottom:10px;">Accessibility of data for AI consumption &mdash; real-time vs. batch availability, API access, data lake maturity, and integration pipeline health.</p>
+            <div class="process-area">
+              <span class="process-tag">Real-time Access</span>
+              <span class="process-tag">API Readiness</span>
+              <span class="process-tag">Data Lake</span>
+            </div>
+          </div>
+
+          <div style="background:var(--card);border:1px solid var(--bdr);border-radius:var(--r);padding:20px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;">
+              <span style="font-size:1.2rem;">&#128272;</span>
+              <h4 style="font-size:0.95rem;font-weight:700;color:var(--navy);">Data Security &amp; Privacy</h4>
+              <span class="tag tag-red" style="margin-left:auto;">Compliance Critical</span>
+            </div>
+            <p style="font-size:0.83rem;color:var(--txt-2);line-height:1.65;margin-bottom:10px;">PII handling, encryption standards, access controls, and regulatory compliance (GDPR, CCPA) that affect AI model training and deployment security posture.</p>
+            <div class="process-area">
+              <span class="process-tag process-tag-red">PII Controls</span>
+              <span class="process-tag process-tag-red">GDPR / CCPA</span>
+              <span class="process-tag process-tag-red">Encryption</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div>
+        <!-- Readiness Scorecard Visual -->
+        <div style="background:var(--navy);border-radius:var(--r-lg);padding:36px;position:sticky;top:90px;">
+          <div style="text-align:center;margin-bottom:28px;">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-bottom:12px;">AI READINESS SCORE</div>
+            <div style="font-size:5rem;font-weight:900;color:var(--teal-lt);line-height:1;">87</div>
+            <div style="font-size:1rem;color:rgba(255,255,255,0.5);margin-top:4px;">/ 100</div>
+            <div style="display:inline-flex;align-items:center;gap:6px;margin-top:12px;background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.25);color:#22c55e;font-size:0.75rem;font-weight:700;padding:5px 14px;border-radius:100px;">
+              &#9650; AI-Ready Tier
+            </div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.75rem;margin-bottom:4px;">
+                <span style="color:rgba(255,255,255,0.6);">Data Quality</span>
+                <span style="color:var(--teal-lt);font-weight:700;">91%</span>
+              </div>
+              <div style="height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden;">
+                <div style="width:91%;height:100%;background:var(--teal-lt);border-radius:3px;"></div>
+              </div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.75rem;margin-bottom:4px;">
+                <span style="color:rgba(255,255,255,0.6);">Governance</span>
+                <span style="color:var(--gold);font-weight:700;">74%</span>
+              </div>
+              <div style="height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden;">
+                <div style="width:74%;height:100%;background:var(--gold);border-radius:3px;"></div>
+              </div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.75rem;margin-bottom:4px;">
+                <span style="color:rgba(255,255,255,0.6);">Availability</span>
+                <span style="color:var(--teal-lt);font-weight:700;">88%</span>
+              </div>
+              <div style="height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden;">
+                <div style="width:88%;height:100%;background:var(--teal-lt);border-radius:3px;"></div>
+              </div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.75rem;margin-bottom:4px;">
+                <span style="color:rgba(255,255,255,0.6);">Security &amp; Privacy</span>
+                <span style="color:var(--oracle-red);font-weight:700;">82%</span>
+              </div>
+              <div style="height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden;">
+                <div style="width:82%;height:100%;background:var(--oracle-red);border-radius:3px;"></div>
+              </div>
+            </div>
+            <div>
+              <div style="display:flex;justify-content:space-between;font-size:0.75rem;margin-bottom:4px;">
+                <span style="color:rgba(255,255,255,0.6);">Ownership &amp; Stewardship</span>
+                <span style="color:#a78bfa;font-weight:700;">79%</span>
+              </div>
+              <div style="height:6px;background:rgba(255,255,255,0.08);border-radius:3px;overflow:hidden;">
+                <div style="width:79%;height:100%;background:#a78bfa;border-radius:3px;"></div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.08);">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:rgba(255,255,255,0.3);margin-bottom:10px;">MATURITY LEVEL</div>
+            <div style="display:flex;gap:6px;">
+              <div style="flex:1;height:8px;background:var(--teal-lt);border-radius:2px;"></div>
+              <div style="flex:1;height:8px;background:var(--teal-lt);border-radius:2px;"></div>
+              <div style="flex:1;height:8px;background:var(--teal-lt);border-radius:2px;"></div>
+              <div style="flex:1;height:8px;background:var(--teal-lt);border-radius:2px;"></div>
+              <div style="flex:1;height:8px;background:rgba(255,255,255,0.12);border-radius:2px;"></div>
+            </div>
+            <div style="font-size:0.75rem;color:var(--teal-lt);font-weight:700;margin-top:6px;">Level 4: Managed &amp; Optimizing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESS PROCESS ASSESSMENT -->
+<section class="section bg-white" id="process">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Step 2</span>
+      <h2>Business Process AI Assessment</h2>
+      <p>We map your core business processes against AI automation opportunity, prioritizing based on complexity, volume, ROI potential, and existing Oracle Fusion capabilities.</p>
+    </div>
+    <div class="assessment-grid fade-up">
+
+      <div class="assess-card">
+        <div class="assess-header" style="background:linear-gradient(135deg,var(--teal-05),var(--bg));">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <span style="font-size:1.4rem;">&#128200;</span>
+            <div class="tag tag-teal">Finance &amp; Accounting</div>
+          </div>
+          <h3>Finance Process AI</h3>
+          <p>Oracle Fusion Financials processes with highest AI automation ROI</p>
+        </div>
+        <div class="assess-body">
+          <div class="assess-items">
+            <div class="assess-item">
+              <span class="assess-name">Accounts Payable (AP)</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Accounts Receivable (AR)</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Financial Close &amp; Consolidation</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Forecasting &amp; Planning</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Expense Management</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-fill"></span><span class="dot dot-empty"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:14px;font-size:0.75rem;color:var(--teal-dk);font-weight:600;">Avg ROI: 2.8x &bull; High automation potential</div>
+        </div>
+      </div>
+
+      <div class="assess-card">
+        <div class="assess-header" style="background:linear-gradient(135deg,var(--gold-08),var(--bg));">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <span style="font-size:1.4rem;">&#128101;</span>
+            <div class="tag tag-gold">Human Resources</div>
+          </div>
+          <h3>HR Process AI</h3>
+          <p>Oracle HCM Cloud processes targeted for AI-driven intelligent automation</p>
+        </div>
+        <div class="assess-body">
+          <div class="assess-items">
+            <div class="assess-item">
+              <span class="assess-name">Recruiting &amp; Screening</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Employee Onboarding</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Payroll Processing</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-empty"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Performance Reviews</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">HR Service Requests</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span><span class="dot dot-fill" style="background:var(--gold);"></span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:14px;font-size:0.75rem;color:var(--gold-dk);font-weight:600;">Avg ROI: 3.1x &bull; Very high automation potential</div>
+        </div>
+      </div>
+
+      <div class="assess-card">
+        <div class="assess-header" style="background:linear-gradient(135deg,rgba(124,58,237,0.06),var(--bg));">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <span style="font-size:1.4rem;">&#128230;</span>
+            <div class="tag" style="background:rgba(124,58,237,0.08);color:#7c3aed;border:1px solid rgba(124,58,237,0.2);">Supply Chain</div>
+          </div>
+          <h3>Supply Chain Process AI</h3>
+          <p>Oracle SCM Cloud processes for demand forecasting and supply optimization</p>
+        </div>
+        <div class="assess-body">
+          <div class="assess-items">
+            <div class="assess-item">
+              <span class="assess-name">Demand Forecasting</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Inventory Optimization</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Supplier Risk Detection</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Order Exception Handling</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-empty"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Route &amp; Logistics Optimization</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-fill" style="background:#7c3aed;"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:14px;font-size:0.75rem;color:#7c3aed;font-weight:600;">Avg ROI: 4.2x &bull; Exceptional automation potential</div>
+        </div>
+      </div>
+
+      <div class="assess-card">
+        <div class="assess-header" style="background:linear-gradient(135deg,var(--red-08),var(--bg));">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <span style="font-size:1.4rem;">&#128222;</span>
+            <div class="tag tag-red">Customer Service</div>
+          </div>
+          <h3>Customer Service AI</h3>
+          <p>AI-driven customer support, self-service, and resolution acceleration</p>
+        </div>
+        <div class="assess-body">
+          <div class="assess-items">
+            <div class="assess-item">
+              <span class="assess-name">Ticket Triage &amp; Routing</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Customer Self-Service Bot</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Sentiment Analysis</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Knowledge Base Suggestions</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+            <div class="assess-item">
+              <span class="assess-name">Resolution Recommendations</span>
+              <div class="assess-dots">
+                <span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-fill" style="background:var(--oracle-red);"></span><span class="dot dot-empty"></span><span class="dot dot-empty"></span>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:14px;font-size:0.75rem;color:var(--oracle-red);font-weight:600;">Avg ROI: 3.6x &bull; Very high automation potential</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GENERATIVE AI ASSESSMENT -->
+<section class="section bg-gray" id="genai">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Step 3</span>
+      <h2>Generative AI Assessment</h2>
+      <p>We identify where Large Language Models (LLMs) and Generative AI can create the most value in your organization &mdash; from content automation to enterprise knowledge management.</p>
+    </div>
+    <div class="grid-3 fade-up">
+
+      <div class="card">
+        <div class="icon-box icon-teal">&#128221;</div>
+        <h3>Content Generation</h3>
+        <p>Automate creation of reports, proposals, policies, product descriptions, financial narratives, and compliance documentation using enterprise LLMs with your data.</p>
+        <div class="process-area" style="margin-top:14px;">
+          <span class="process-tag">Financial Reports</span>
+          <span class="process-tag">RFP Responses</span>
+          <span class="process-tag">Policy Docs</span>
+          <span class="process-tag">Narratives</span>
+        </div>
+      </div>
+
+      <div class="card card-gold">
+        <div class="icon-box icon-gold">&#128218;</div>
+        <h3>Knowledge Management</h3>
+        <p>Transform your enterprise knowledge base with GenAI search, intelligent Q&amp;A, document summarization, and contextual retrieval across Oracle Fusion and business systems.</p>
+        <div class="process-area" style="margin-top:14px;">
+          <span class="process-tag process-tag-gold">Semantic Search</span>
+          <span class="process-tag process-tag-gold">Doc Q&amp;A</span>
+          <span class="process-tag process-tag-gold">Summarization</span>
+        </div>
+      </div>
+
+      <div class="card card-red">
+        <div class="icon-box icon-red">&#128172;</div>
+        <h3>Customer Support GenAI</h3>
+        <p>Generative AI-powered customer support with contextual understanding, personalized responses, and seamless escalation &mdash; integrated with Oracle Service Cloud and CX.</p>
+        <div class="process-area" style="margin-top:14px;">
+          <span class="process-tag process-tag-red">Chat Support</span>
+          <span class="process-tag process-tag-red">Email AI</span>
+          <span class="process-tag process-tag-red">Response Gen</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="background:var(--navy);border-radius:var(--r-lg);padding:36px;margin-top:36px;" class="fade-up">
+      <div style="text-align:center;margin-bottom:28px;">
+        <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-bottom:8px;">TECHNOLOGY STACK</div>
+        <h3 style="color:#fff;font-size:1.2rem;">GenAI Platform Options We Evaluate</h3>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center;">
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r-sm);padding:18px;">
+          <div style="font-size:1.5rem;margin-bottom:8px;">&#127968;</div>
+          <div style="font-size:0.82rem;font-weight:700;color:rgba(255,255,255,0.8);">OCI Generative AI</div>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-top:4px;">Oracle Native</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r-sm);padding:18px;">
+          <div style="font-size:1.5rem;margin-bottom:8px;">&#128161;</div>
+          <div style="font-size:0.82rem;font-weight:700;color:rgba(255,255,255,0.8);">Anthropic Claude API</div>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-top:4px;">Enterprise LLM</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r-sm);padding:18px;">
+          <div style="font-size:1.5rem;margin-bottom:8px;">&#129504;</div>
+          <div style="font-size:0.82rem;font-weight:700;color:rgba(255,255,255,0.8);">OpenAI Platform</div>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-top:4px;">GPT-4 / o-series</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);border-radius:var(--r-sm);padding:18px;">
+          <div style="font-size:1.5rem;margin-bottom:8px;">&#128302;</div>
+          <div style="font-size:0.82rem;font-weight:700;color:rgba(255,255,255,0.8);">Oracle Digital Assistant</div>
+          <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-top:4px;">Oracle Fusion Native</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AI AGENT ASSESSMENT -->
+<section class="section bg-white" id="agents">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Step 4</span>
+      <h2>AI Agent Assessment</h2>
+      <p>AI Agents go beyond automation &mdash; they reason, plan, and take actions across multiple systems. We identify and blueprint the highest-value agent opportunities in your Oracle ecosystem.</p>
+    </div>
+
+    <div class="two-col fade-up" style="margin-bottom:48px;">
+      <div>
+        <h3 style="font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:20px;">What Makes a Good AI Agent Target?</h3>
+        <div class="feature-list">
+          <div class="feat-item">
+            <span class="feat-icon">&#128260;</span>
+            <div>
+              <h4>Repetitive Multi-Step Tasks</h4>
+              <p>High-volume processes that follow predictable rules but require judgment and decision-making across Oracle Fusion modules.</p>
+            </div>
+          </div>
+          <div class="feat-item">
+            <span class="feat-icon">&#128279;</span>
+            <div>
+              <h4>Multi-System Interactions</h4>
+              <p>Tasks that require querying, updating, or coordinating across Oracle ERP, HCM, OCI, and external systems in a single workflow.</p>
+            </div>
+          </div>
+          <div class="feat-item">
+            <span class="feat-icon">&#128200;</span>
+            <div>
+              <h4>Data Summarization &amp; Reporting</h4>
+              <p>Regular reports, dashboards, and summaries that aggregate Oracle Fusion data and require contextual interpretation.</p>
+            </div>
+          </div>
+          <div class="feat-item">
+            <span class="feat-icon">&#9989;</span>
+            <div>
+              <h4>Approval &amp; Workflow Routing</h4>
+              <p>Complex approval hierarchies in Oracle Fusion that can be intelligently routed, escalated, and resolved by an AI agent.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:20px;">Potential AI Agent Areas</h3>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div style="background:var(--bg-2);border:1px solid var(--bdr);border-radius:var(--r-sm);padding:16px;transition:all var(--t-s);">
+            <div style="font-size:1.2rem;margin-bottom:6px;">&#128101;</div>
+            <div style="font-size:0.88rem;font-weight:700;color:var(--navy);margin-bottom:4px;">HR Digital Assistant</div>
+            <div style="font-size:0.78rem;color:var(--txt-2);">Benefits, leave, policy Q&amp;A, and onboarding guide via Oracle Digital Assistant</div>
+          </div>
+          <div style="background:var(--bg-2);border:1px solid var(--bdr);border-radius:var(--r-sm);padding:16px;">
+            <div style="font-size:1.2rem;margin-bottom:6px;">&#128200;</div>
+            <div style="font-size:0.88rem;font-weight:700;color:var(--navy);margin-bottom:4px;">Finance AI Agent</div>
+            <div style="font-size:0.78rem;color:var(--txt-2);">Invoice matching, AP exception handling, and financial close task automation</div>
+          </div>
+          <div style="background:var(--bg-2);border:1px solid var(--bdr);border-radius:var(--r-sm);padding:16px;">
+            <div style="font-size:1.2rem;margin-bottom:6px;">&#128230;</div>
+            <div style="font-size:0.88rem;font-weight:700;color:var(--navy);margin-bottom:4px;">Procurement Agent</div>
+            <div style="font-size:0.78rem;color:var(--txt-2);">Purchase requisition, supplier lookup, approval routing, and PO tracking agent</div>
+          </div>
+          <div style="background:var(--bg-2);border:1px solid var(--bdr);border-radius:var(--r-sm);padding:16px;">
+            <div style="font-size:1.2rem;margin-bottom:6px;">&#128203;</div>
+            <div style="font-size:0.88rem;font-weight:700;color:var(--navy);margin-bottom:4px;">Contract Review Agent</div>
+            <div style="font-size:0.78rem;color:var(--txt-2);">Extract key terms, flag risks, and compare against standard templates using GenAI</div>
+          </div>
+          <div style="background:var(--bg-2);border:1px solid var(--bdr);border-radius:var(--r-sm);padding:16px;">
+            <div style="font-size:1.2rem;margin-bottom:6px;">&#128187;</div>
+            <div style="font-size:0.88rem;font-weight:700;color:var(--navy);margin-bottom:4px;">IT Support Agent</div>
+            <div style="font-size:0.78rem;color:var(--txt-2);">Oracle Fusion issue triage, resolution recommendations, and ticket auto-routing</div>
+          </div>
+          <div style="background:var(--bg-2);border:1px solid var(--bdr);border-radius:var(--r-sm);padding:16px;">
+            <div style="font-size:1.2rem;margin-bottom:6px;">&#128202;</div>
+            <div style="font-size:0.88rem;font-weight:700;color:var(--navy);margin-bottom:4px;">Executive Reporting</div>
+            <div style="font-size:0.78rem;color:var(--txt-2);">Automated CEO/CFO dashboard narratives pulled from Oracle Fusion and OAC data</div>
+          </div>
+        </div>
+
+        <div style="margin-top:20px;background:var(--teal-05);border:1px solid var(--teal-20);border-radius:var(--r-sm);padding:16px;">
+          <div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--teal-dk);margin-bottom:8px;">Built on Oracle AI Agent Studio &amp; OCI AI Services</div>
+          <p style="font-size:0.8rem;color:var(--txt-2);line-height:1.6;">All AI agents are designed for Oracle-native deployment using Oracle AI Agent Studio, OCI Generative AI Service, and Oracle Digital Assistant &mdash; with optional integration to Anthropic Claude API or OpenAI Platform for specialized use cases.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORACLE FUSION AI -->
+<section class="section bg-gray" id="oracle-ai">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Step 5</span>
+      <h2>Oracle Fusion AI Opportunities</h2>
+      <p>Oracle Fusion Cloud has embedded AI capabilities across every module. We help you discover, activate, and maximize these built-in AI features as part of your AI strategy.</p>
+    </div>
+    <div class="grid-3 fade-up">
+
+      <div class="card">
+        <div class="icon-box icon-red">&#128200;</div>
+        <h3>Oracle ERP AI</h3>
+        <p>Invoice AI for automatic coding and matching, expense anomaly detection, cash flow prediction, and smart journal suggestions in Oracle Financials Cloud.</p>
+        <div class="process-area" style="margin-top:12px;">
+          <span class="process-tag">Invoice AI</span>
+          <span class="process-tag">Cash Prediction</span>
+          <span class="process-tag">Smart Journals</span>
+        </div>
+      </div>
+
+      <div class="card card-gold">
+        <div class="icon-box icon-gold">&#128101;</div>
+        <h3>Oracle HCM AI</h3>
+        <p>Talent recommendations, skills inference, career development pathways, and workforce planning intelligence via Oracle Fusion HCM AI Features and Oracle Digital Assistant.</p>
+        <div class="process-area" style="margin-top:12px;">
+          <span class="process-tag process-tag-gold">Skills Graph</span>
+          <span class="process-tag process-tag-gold">Talent AI</span>
+          <span class="process-tag process-tag-gold">Digital Assistant</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon-box icon-teal">&#128230;</div>
+        <h3>Oracle SCM AI</h3>
+        <p>Demand sensing, inventory optimization recommendations, supply disruption prediction, and procurement savings identification embedded in Oracle SCM Cloud.</p>
+        <div class="process-area" style="margin-top:12px;">
+          <span class="process-tag">Demand AI</span>
+          <span class="process-tag">Risk Sensing</span>
+          <span class="process-tag">Procurement AI</span>
+        </div>
+      </div>
+
+      <div class="card card-red">
+        <div class="icon-box icon-red">&#128202;</div>
+        <h3>Oracle EPM AI</h3>
+        <p>Machine learning-based financial forecasting, anomaly detection in account reconciliation, and natural language querying in Oracle Analytics Cloud (OAC) and PBCS.</p>
+        <div class="process-area" style="margin-top:12px;">
+          <span class="process-tag process-tag-red">ML Forecasting</span>
+          <span class="process-tag process-tag-red">NL Query</span>
+          <span class="process-tag process-tag-red">Anomaly Detection</span>
+        </div>
+      </div>
+
+      <div class="card card-gold">
+        <div class="icon-box icon-gold">&#128302;</div>
+        <h3>Oracle Digital Assistant</h3>
+        <p>Conversational AI for Oracle Fusion Cloud &mdash; employees can ask questions, submit requests, and take actions across ERP, HCM, SCM, and EPM using natural language.</p>
+        <div class="process-area" style="margin-top:12px;">
+          <span class="process-tag process-tag-gold">Oracle DA</span>
+          <span class="process-tag process-tag-gold">Conversational AI</span>
+          <span class="process-tag process-tag-gold">Multi-Module</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="icon-box icon-navy">&#129504;</div>
+        <h3>OCI AI Services</h3>
+        <p>Vision, Language, Speech, Document Understanding, and Anomaly Detection services on OCI &mdash; integrated with Oracle Fusion for end-to-end AI-enabled business processes.</p>
+        <div class="process-area" style="margin-top:12px;">
+          <span class="process-tag">OCI Vision</span>
+          <span class="process-tag">Doc AI</span>
+          <span class="process-tag">OCI Language</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERABLES -->
+<section class="section bg-white" id="deliverables">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">What You Get</span>
+      <h2>AI Consulting Deliverables</h2>
+      <p>Every AI Readiness engagement produces six comprehensive deliverables &mdash; giving your leadership a complete picture and a clear action plan for AI transformation.</p>
+    </div>
+    <div class="ai-deliverable-grid fade-up">
+      <div class="deliverable">
+        <div class="del-icon">&#128202;</div>
+        <div>
+          <h4>AI Readiness Score &amp; Report</h4>
+          <p>Your 0&ndash;100 AI Readiness Index with dimension-level scoring, benchmarks, and a data quality improvement roadmap.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon" style="background:var(--gold-08);border-color:var(--gold-15);">&#127775;</div>
+        <div>
+          <h4>AI Maturity Assessment</h4>
+          <p>5-level maturity model evaluation across people, processes, data, and technology with gap analysis and priority actions.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon" style="background:var(--red-08);border-color:var(--red-15);">&#9729;&#65039;</div>
+        <div>
+          <h4>Oracle Fusion AI Optimization Plan</h4>
+          <p>Module-by-module activation guide for Oracle&rsquo;s embedded AI features, Digital Assistant config, and OAC AI dashboards.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon">&#129302;</div>
+        <div>
+          <h4>AI Agent Use Case Blueprints</h4>
+          <p>Prioritized list of AI agent opportunities with technical architecture, Oracle AI Agent Studio design, and effort estimates.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon" style="background:var(--gold-08);border-color:var(--gold-15);">&#128161;</div>
+        <div>
+          <h4>GenAI Opportunities Catalog</h4>
+          <p>Ranked catalog of Generative AI use cases with platform recommendations (OCI GenAI / Anthropic Claude / OpenAI) and RAG architecture guidance.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon" style="background:var(--red-08);border-color:var(--red-15);">&#127968;</div>
+        <div>
+          <h4>OCI AI Architecture Recommendation</h4>
+          <p>Reference architecture for deploying AI workloads on OCI &mdash; including GPU instances, Data Science Platform, and Generative AI Service setup.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon">&#128176;</div>
+        <div>
+          <h4>ROI Estimate by Use Case</h4>
+          <p>Financial business case with 3-year ROI projections, cost avoidance estimates, and productivity gain calculations for each prioritized AI initiative.</p>
+        </div>
+      </div>
+      <div class="deliverable">
+        <div class="del-icon" style="background:var(--gold-08);border-color:var(--gold-15);">&#128203;</div>
+        <div>
+          <h4>Executive AI Strategy Report</h4>
+          <p>Board-ready 20-page AI strategy document covering vision, roadmap, risk management, governance framework, and investment recommendations.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BANNER -->
+<div class="stat-banner">
+  <div class="container">
+    <div class="stat-banner-inner">
+      <div>
+        <span class="sb-val">25+</span>
+        <span class="sb-lbl">AI Readiness Dimensions</span>
+      </div>
+      <div>
+        <span class="sb-val">6</span>
+        <span class="sb-lbl">Deliverable Reports</span>
+      </div>
+      <div>
+        <span class="sb-val">3.4x</span>
+        <span class="sb-lbl">Avg AI ROI</span>
+      </div>
+      <div>
+        <span class="sb-val">12+</span>
+        <span class="sb-lbl">AI Agent Blueprints</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-inner fade-up">
+      <span class="label label-white">Start Your AI Journey</span>
+      <h2>Book Your AI Readiness Assessment</h2>
+      <p>Empowering your business with tailored AI and expert guidance &mdash; let&rsquo;s map your AI opportunity and build your enterprise AI roadmap together.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Book Free AI Consult &rarr;</a>
+        <a href="oracle-fusion.html" class="btn btn-gold">Oracle Fusion Cloud</a>
+        <a href="oci.html" class="btn btn-white-outline">Explore OCI</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-id">
+          <img src="images/favicon.jpg" class="footer-favicon" alt="Bespoke AI Technologies" />
+          <span class="footer-brand-name">
+            <span class="footer-brand-main">BESPOKE AI</span>
+            <span class="footer-brand-sub">TECHNOLOGIES</span>
+          </span>
+        </a>
+        <p>Oracle Fusion Cloud and OCI specialists &mdash; empowering your business with tailored AI and expert guidance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>AI Consulting</h4>
+        <ul>
+          <li><a href="ai-consulting.html#readiness">AI Readiness</a></li>
+          <li><a href="ai-consulting.html#process">Business Process AI</a></li>
+          <li><a href="ai-consulting.html#genai">Generative AI</a></li>
+          <li><a href="ai-consulting.html#agents">AI Agents</a></li>
+          <li><a href="ai-consulting.html#oracle-ai">Oracle Fusion AI</a></li>
+          <li><a href="ai-consulting.html#deliverables">Deliverables</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Oracle Solutions</h4>
+        <ul>
+          <li><a href="oracle-fusion.html">Oracle Fusion Cloud</a></li>
+          <li><a href="oci.html">OCI Infrastructure</a></li>
+          <li><a href="cloud.html">Cloud &amp; Integration</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="apply.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+      <div class="footer-badges">
+        <span class="footer-badge">AI Consulting</span>
+        <span class="footer-badge">Oracle Specialists</span>
+        <span class="footer-badge">OCI Certified</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

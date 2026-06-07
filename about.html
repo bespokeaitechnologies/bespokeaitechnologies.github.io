@@ -3,178 +3,251 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | Bespoke AI Technologies Inc</title>
-  <meta name="description" content="Learn about Bespoke AI Technologies &mdash; a North Carolina-based full-service IT consulting firm serving Fortune 1000 and government clients." />
+  <title>About Us | Bespoke AI Technologies</title>
+  <meta name="description" content="Bespoke AI Technologies &mdash; Your Trusted Source for Integrated Oracle Cloud Technology Solutions and AI Consulting. Mission, vision, and value proposition." />
   <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo.jpg" alt="Bespoke AI Technologies" />
-      </a>
-      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <span class="dropdown-trigger">IT Services &#9662;</span>
-          <div class="dropdown-menu">
-            <a href="it-services.html">All Services</a>
-            <a href="erp.html">ERP Solutions</a>
-            <a href="cloud.html">Cloud Architecture &amp; Integration</a>
-          </div>
-        </li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <section class="page-hero">
-    <div class="container">
-      <p class="section-label">Our Story</p>
-      <h1>About Bespoke AI Technologies</h1>
-      <p>A North Carolina-based full-service consulting firm with over a decade of experience delivering transformative technology solutions.</p>
-    </div>
-  </section>
-
-  <section class="about-section">
-    <div class="container">
-      <div class="about-grid">
-        <div class="about-graphic">
-          <div class="about-stat">
-            <div class="stat-value">10+</div>
-            <div class="stat-label">Years Experience</div>
-          </div>
-          <div class="about-stat">
-            <div class="stat-value">F1000</div>
-            <div class="stat-label">Client Tier</div>
-          </div>
-          <div class="about-stat">
-            <div class="stat-value">Gov&rsquo;t</div>
-            <div class="stat-label">Sector Served</div>
-          </div>
-          <div class="about-stat">
-            <div class="stat-value">100%</div>
-            <div class="stat-label">Quality Warranty</div>
-          </div>
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/favicon.jpg" class="nav-favicon" alt="Bespoke AI Technologies" />
+      <span class="nav-brand-name">
+        <span class="brand-main">BESPOKE AI</span>
+        <span class="brand-sub">TECHNOLOGIES</span>
+      </span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="drop-trigger">Oracle Solutions &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">Cloud Applications</div>
+          <a href="oracle-fusion.html"><span class="icon">&#9729;&#65039;</span> Oracle Fusion Cloud</a>
+          <a href="oracle-fusion.html#erp"><span class="icon">&#128200;</span> Oracle ERP Cloud</a>
+          <a href="oracle-fusion.html#hcm"><span class="icon">&#128101;</span> Oracle HCM Cloud</a>
+          <a href="oracle-fusion.html#scm"><span class="icon">&#128230;</span> Oracle SCM Cloud</a>
+          <a href="oracle-fusion.html#epm"><span class="icon">&#128202;</span> Oracle EPM Cloud</a>
+          <div class="drop-label" style="margin-top:8px;">Infrastructure</div>
+          <a href="oci.html"><span class="icon">&#127968;</span> Oracle Cloud Infrastructure</a>
+          <a href="cloud.html"><span class="icon">&#128279;</span> Cloud &amp; Integration</a>
         </div>
-        <div class="about-content">
-          <p class="section-label">Who We Are</p>
-          <h2 class="section-title">Adapting Business Through Technology</h2>
-          <p class="section-subtitle" style="margin-bottom:28px;">The essence of a successful business is its ability to adapt and transform while keeping ground realities in sight. At Bespoke AI Technologies, we leverage the synergy between technology and people to drive real business results.</p>
-          <div class="about-features">
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p>We help mid-sized and Fortune 1000 companies &mdash; as well as government sector clients &mdash; keep pace with the rapidly changing business environment by adopting the latest in technology.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p>Our flexible engagement models include both onsite and offshore options, giving clients the scale and speed they need without compromising quality.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p>We stand behind every engagement with a written warranty for work quality and professional standards &mdash; because we believe in accountability at every step.</p>
-            </div>
-            <div class="about-feature">
-              <span class="check">&#10003;</span>
-              <p>From analyzing projects and researching appropriate solutions, to improving operational efficiency and ensuring business continuity &mdash; we are with you end to end.</p>
-            </div>
-          </div>
+      </li>
+      <li class="dropdown">
+        <span class="drop-trigger">AI Consulting &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">AI Advisory</div>
+          <a href="ai-consulting.html"><span class="icon">&#129504;</span> AI Readiness Assessment</a>
+          <a href="ai-consulting.html#process"><span class="icon">&#9881;&#65039;</span> Business Process AI</a>
+          <a href="ai-consulting.html#genai"><span class="icon">&#128161;</span> Generative AI Consulting</a>
+          <a href="ai-consulting.html#agents"><span class="icon">&#129302;</span> AI Agent Development</a>
+          <a href="ai-consulting.html#oracle-ai"><span class="icon">&#128200;</span> Oracle Fusion AI</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+  <div class="container ph-inner">
+    <span class="label">About Bespoke AI Technologies</span>
+    <h1>Your Trusted Source for<br/><span class="gradient-text">Integrated Oracle &amp; AI Solutions</span></h1>
+    <p>A full-service Oracle Cloud and AI consulting firm &mdash; delivering tailored solutions that empower enterprises to adapt, transform, and lead. Empowering your business with tailored AI and expert guidance.</p>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="section bg-white" id="mission">
+  <div class="container">
+    <div class="two-col fade-up">
+      <div>
+        <span class="label label-red">Who We Are</span>
+        <h2 style="font-size:clamp(1.7rem,2.5vw,2.3rem);margin-bottom:20px;">Adapting Business Through Oracle Cloud &amp; AI Technology</h2>
+        <p style="color:var(--txt-2);line-height:1.8;margin-bottom:18px;">The essence of a successful business is its ability to adapt and transform while keeping ground realities in sight. At Bespoke AI Technologies, we leverage the synergy between Oracle Cloud technology, AI innovation, and people to drive real, measurable business results.</p>
+        <p style="color:var(--txt-2);line-height:1.8;margin-bottom:18px;">We are Oracle Fusion Cloud, OCI, and AI Consulting specialists &mdash; serving mid-market and Fortune 1000 companies, as well as government sector clients globally &mdash; helping them keep pace with the rapidly changing business environment by adopting the latest in Oracle Cloud and artificial intelligence technology.</p>
+        <p style="color:var(--txt-2);line-height:1.8;margin-bottom:32px;">Our flexible engagement models include both onsite and offshore options, giving clients the scale and speed they need without compromising Oracle implementation quality or AI solution effectiveness.</p>
+        <a href="contact.html" class="btn btn-primary">Work With Us &rarr;</a>
+      </div>
+      <div class="visual-box">
+        <div class="vbox-card">
+          <div class="vbox-icon">&#9201;</div>
+          <div class="vbox-val counter" data-target="10" data-suffix="+">10+</div>
+          <div class="vbox-lbl">Years Oracle Experience</div>
+        </div>
+        <div class="vbox-card">
+          <div class="vbox-icon">&#9729;&#65039;</div>
+          <div class="vbox-val counter" data-target="150" data-suffix="+">150+</div>
+          <div class="vbox-lbl">Oracle Implementations</div>
+        </div>
+        <div class="vbox-card">
+          <div class="vbox-icon">&#127942;</div>
+          <div class="vbox-val" style="color:var(--oracle-red);">F1000</div>
+          <div class="vbox-lbl">Client Portfolio Tier</div>
+        </div>
+        <div class="vbox-card">
+          <div class="vbox-icon">&#128203;</div>
+          <div class="vbox-val">100%</div>
+          <div class="vbox-lbl">Written Quality Warranty</div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="value-props" style="padding:80px 0;">
-    <div class="container">
-      <div style="text-align:center; margin-bottom:56px;">
-        <p class="section-label">What We Deliver</p>
-        <h2 class="section-title">Measurable Business Outcomes</h2>
+<!-- Mission / Vision / Value -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Our Foundation</span>
+      <h2>Mission, Vision &amp; Value</h2>
+    </div>
+    <div class="mv-grid fade-up">
+      <div class="mv-card">
+        <h4>&#127919; Our Mission</h4>
+        <p>To be at the forefront in designing custom Oracle Cloud business and technology solutions, addressing and solving clients&rsquo; unique business needs so that goals are achieved by providing impetus at every stage of business.</p>
       </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon">&#128200;</div>
-          <h3>Increase Profitability</h3>
-          <p>Technology realignment and process optimization that directly impact your bottom line through reduced waste and new revenue channels.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">&#9889;</div>
-          <h3>Accelerate Time-to-Market</h3>
-          <p>Streamlined workflows and modern integrations that compress development and deployment cycles across your organization.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">&#128176;</div>
-          <h3>Reduce Operational Costs</h3>
-          <p>Smart automation, cloud migration, and vendor optimization strategies that measurably lower your total cost of ownership.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon">&#128279;</div>
-          <h3>Expand Sales Channels</h3>
-          <p>Digital transformation and platform integrations that open new markets and customer touchpoints for sustainable growth.</p>
-        </div>
+      <div class="mv-card">
+        <h4>&#128269; Our Vision</h4>
+        <p>To ensure our clients&rsquo; business is a success always. Enabling the best possible Oracle Cloud and AI solutions in human capital and technology &mdash; harnessing the best that the world offers to position our clients for sustainable growth.</p>
+      </div>
+      <div class="mv-card">
+        <h4>&#128206; Value Proposition</h4>
+        <p>Bespoke AI Technologies&rsquo; Oracle and AI solutions make sure you find the right advantage for your business. We will help lower operational costs and ensure business continuity. We walk every step with you, partnering in your vision and making it successful.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="cta-banner">
-    <div class="container">
-      <h2>Let&rsquo;s Work Together</h2>
-      <p>Ready to see what tailored AI and IT consulting can do for your organization?</p>
+<!-- Darwin quote -->
+<section class="section-sm bg-white">
+  <div class="container" style="max-width:780px;">
+    <div class="quote-wrap fade-up">
+      <div class="quote-mark">&ldquo;</div>
+      <p class="quote-text">&ldquo;It is not the strongest of the species that survives, nor the most intelligent, but the one most responsive to change.&rdquo;</p>
+      <span class="quote-attr">&mdash; Charles Darwin &bull; The principle behind how we approach every Oracle Cloud and AI engagement</span>
+    </div>
+  </div>
+</section>
+
+<!-- What we deliver -->
+<section class="section bg-gray">
+  <div class="container">
+    <div class="section-head fade-up">
+      <span class="label">Measurable Outcomes</span>
+      <h2>What We Deliver for Every Client</h2>
+    </div>
+    <div class="grid-3">
+      <div class="card fade-up">
+        <div class="icon-box icon-teal">&#128200;</div>
+        <h3>Increase Profitability</h3>
+        <p>Oracle Cloud automation and process optimization that directly improve your bottom line &mdash; through reduced waste, faster close cycles, and new revenue channels.</p>
+      </div>
+      <div class="card card-red fade-up">
+        <div class="icon-box icon-red">&#9889;</div>
+        <h3>Accelerate Time-to-Market</h3>
+        <p>Proven Oracle Fusion and OCI implementation frameworks that compress deployment cycles and get your technology working faster for the business.</p>
+      </div>
+      <div class="card card-gold fade-up">
+        <div class="icon-box icon-gold">&#128176;</div>
+        <h3>Reduce Operational Costs</h3>
+        <p>OCI optimization, Oracle Fusion process automation, and vendor consolidation strategies that measurably lower your total cost of Oracle Cloud ownership.</p>
+      </div>
+      <div class="card fade-up">
+        <div class="icon-box icon-teal">&#129504;</div>
+        <h3>Unlock AI Potential</h3>
+        <p>AI readiness assessment, GenAI strategy, and AI Agent development that maximizes the value of your Oracle Fusion and OCI investments with intelligent automation.</p>
+      </div>
+      <div class="card card-red fade-up">
+        <div class="icon-box icon-red">&#128203;</div>
+        <h3>Written Quality Warranty</h3>
+        <p>We stand behind every Oracle implementation with a written warranty for work quality and professional standards &mdash; accountability at every project stage.</p>
+      </div>
+      <div class="card card-gold fade-up">
+        <div class="icon-box icon-gold">&#128101;</div>
+        <h3>Flexible Engagement</h3>
+        <p>Onsite and offshore engagement models &mdash; staffing, managed services, project-based, and hybrid models designed around your Oracle journey requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section cta-section">
+  <div class="container">
+    <div class="cta-inner fade-up">
+      <span class="label label-white">Let&rsquo;s Work Together</span>
+      <h2>Partner With Oracle Cloud &amp; AI Experts</h2>
+      <p>Ready to see what tailored Oracle Fusion Cloud, OCI, and AI consulting can do for your organization?</p>
       <div class="cta-actions">
         <a href="contact.html" class="btn btn-primary">Contact Us &rarr;</a>
-        <a href="apply.html" class="btn btn-outline">Join Our Team</a>
+        <a href="ai-consulting.html" class="btn btn-gold">AI Readiness Assessment</a>
+        <a href="oracle-fusion.html" class="btn btn-white-outline">Explore Oracle Solutions</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo.jpg" alt="Bespoke AI Technologies" style="height:48px;" />
-          </a>
-          <p>A full-service AI and IT consulting firm serving mid-sized and Fortune 1000 companies with tailored technology solutions. Based in North Carolina.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="it-services.html">IT Services</a></li>
-            <li><a href="erp.html">ERP Solutions</a></li>
-            <li><a href="cloud.html">Cloud Architecture</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="apply.html">Careers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="contact.html">Get Support</a></li>
-            <li><a href="contact.html">Request a Demo</a></li>
-          </ul>
-        </div>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-id">
+          <img src="images/favicon.jpg" class="footer-favicon" alt="Bespoke AI Technologies" />
+          <span class="footer-brand-name">
+            <span class="footer-brand-main">BESPOKE AI</span>
+            <span class="footer-brand-sub">TECHNOLOGIES</span>
+          </span>
+        </a>
+        <p>Oracle Fusion Cloud and OCI specialists &mdash; empowering your business with tailored AI and expert guidance.</p>
       </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
-        <span>North Carolina, USA</span>
+      <div class="footer-col">
+        <h4>Oracle Solutions</h4>
+        <ul>
+          <li><a href="oracle-fusion.html">Oracle Fusion Cloud</a></li>
+          <li><a href="oci.html">OCI Infrastructure</a></li>
+          <li><a href="cloud.html">Cloud &amp; Integration</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>AI Consulting</h4>
+        <ul>
+          <li><a href="ai-consulting.html">AI Readiness</a></li>
+          <li><a href="ai-consulting.html#agents">AI Agents</a></li>
+          <li><a href="ai-consulting.html#genai">Generative AI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="apply.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
     </div>
-  </footer>
-
-  <script src="js/main.js"></script>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+      <div class="footer-badges">
+        <span class="footer-badge">Oracle Specialists</span>
+        <span class="footer-badge">OCI Certified</span>
+        <span class="footer-badge">AI Consulting</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>

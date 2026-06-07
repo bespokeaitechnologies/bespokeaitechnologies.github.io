@@ -3,195 +3,234 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apply | Bespoke AI Technologies Inc</title>
-  <meta name="description" content="Join the Bespoke AI Technologies team. We&rsquo;re looking for talented IT and AI professionals to help us serve Fortune 1000 clients." />
+  <title>Careers | Bespoke AI Technologies</title>
+  <meta name="description" content="Join the Bespoke AI Technologies team. Oracle Fusion Cloud, OCI, AI Consulting, and integration specialists wanted." />
   <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo.jpg" alt="Bespoke AI Technologies" />
-      </a>
-      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <span class="dropdown-trigger">IT Services &#9662;</span>
-          <div class="dropdown-menu">
-            <a href="it-services.html">All Services</a>
-            <a href="erp.html">ERP Solutions</a>
-            <a href="cloud.html">Cloud Architecture &amp; Integration</a>
-          </div>
-        </li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
-      </ul>
-    </div>
-  </nav>
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/favicon.jpg" class="nav-favicon" alt="Bespoke AI Technologies" />
+      <span class="nav-brand-name">
+        <span class="brand-main">BESPOKE AI</span>
+        <span class="brand-sub">TECHNOLOGIES</span>
+      </span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <span class="drop-trigger">Oracle Solutions &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">Cloud Applications</div>
+          <a href="oracle-fusion.html"><span class="icon">&#9729;&#65039;</span> Oracle Fusion Cloud</a>
+          <a href="oracle-fusion.html#erp"><span class="icon">&#128200;</span> Oracle ERP Cloud</a>
+          <a href="oracle-fusion.html#hcm"><span class="icon">&#128101;</span> Oracle HCM Cloud</a>
+          <a href="oracle-fusion.html#scm"><span class="icon">&#128230;</span> Oracle SCM Cloud</a>
+          <a href="oracle-fusion.html#epm"><span class="icon">&#128202;</span> Oracle EPM Cloud</a>
+          <div class="drop-label" style="margin-top:8px;">Infrastructure</div>
+          <a href="oci.html"><span class="icon">&#127968;</span> Oracle Cloud Infrastructure</a>
+          <a href="cloud.html"><span class="icon">&#128279;</span> Cloud &amp; Integration</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <span class="drop-trigger">AI Consulting &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">AI Advisory</div>
+          <a href="ai-consulting.html"><span class="icon">&#129504;</span> AI Readiness Assessment</a>
+          <a href="ai-consulting.html#process"><span class="icon">&#9881;&#65039;</span> Business Process AI</a>
+          <a href="ai-consulting.html#genai"><span class="icon">&#128161;</span> Generative AI Consulting</a>
+          <a href="ai-consulting.html#agents"><span class="icon">&#129302;</span> AI Agent Development</a>
+          <a href="ai-consulting.html#oracle-ai"><span class="icon">&#128200;</span> Oracle Fusion AI</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
+    </ul>
+  </div>
+</nav>
 
-  <section class="page-hero">
-    <div class="container">
-      <p class="section-label">Careers</p>
-      <h1>Join Our Team</h1>
-      <p>We&rsquo;re looking for talented technology professionals to help us deliver transformative solutions for Fortune 1000 and government clients.</p>
-    </div>
-  </section>
+<section class="page-hero">
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+  <div class="container ph-inner">
+    <span class="label">Careers</span>
+    <h1>Join the <span class="gradient-text">Oracle Cloud &amp; AI</span> Team</h1>
+    <p>We&rsquo;re looking for Oracle Fusion Cloud, OCI, AI Consulting, and integration specialists to help us deliver transformative solutions for Fortune 1000 and government clients worldwide.</p>
+  </div>
+</section>
 
-  <section class="apply-section">
-    <div class="container">
-      <div class="apply-intro">
-        <p class="section-label">Why Bespoke AI?</p>
-        <h2 class="section-title">Work on Meaningful Enterprise Projects</h2>
-        <p class="section-subtitle">We offer flexible engagement models, challenging work, and the opportunity to make a real impact at organizations that shape industries.</p>
-      </div>
-      <div class="apply-grid">
-        <div class="apply-why">
-          <h3>What We Offer</h3>
-          <div class="apply-perks">
-            <div class="apply-perk">
-              <span class="perk-icon">&#127760;</span>
-              <div>
-                <h4>Flexible Work Models</h4>
-                <p>Onsite and offshore options &mdash; work in a way that fits your lifestyle and the project needs.</p>
-              </div>
-            </div>
-            <div class="apply-perk">
-              <span class="perk-icon">&#127942;</span>
-              <div>
-                <h4>Enterprise-Scale Projects</h4>
-                <p>Work directly with Fortune 1000 companies and government agencies on high-impact technology initiatives.</p>
-              </div>
-            </div>
-            <div class="apply-perk">
-              <span class="perk-icon">&#128218;</span>
-              <div>
-                <h4>Continuous Learning</h4>
-                <p>Stay at the cutting edge with exposure to the latest in AI, cloud, and ERP technologies.</p>
-              </div>
-            </div>
-            <div class="apply-perk">
-              <span class="perk-icon">&#129309;</span>
-              <div>
-                <h4>Collaborative Culture</h4>
-                <p>A professional, results-oriented team that values expertise, accountability, and customer success.</p>
-              </div>
-            </div>
-            <div class="apply-perk">
-              <span class="perk-icon">&#128205;</span>
-              <div>
-                <h4>North Carolina Based</h4>
-                <p>Headquartered in North Carolina, with clients and projects across the United States.</p>
-              </div>
+<section class="section bg-white" style="padding-top:40px;">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px;" class="fade-up">
+      <span class="label">Why Bespoke AI?</span>
+      <h2 style="font-size:clamp(1.8rem,2.5vw,2.4rem);">Work on Meaningful Oracle Cloud &amp; AI Projects</h2>
+      <p style="color:var(--txt-2);max-width:560px;margin:0 auto;">We offer flexible engagement models, challenging Oracle Cloud and AI work, and the opportunity to make a real impact at organizations that shape industries.</p>
+    </div>
+    <div class="apply-grid">
+      <div class="fade-up">
+        <h3 style="font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:18px;">What We Offer</h3>
+        <div class="perks">
+          <div class="perk">
+            <div class="perk-ic">&#127760;</div>
+            <div>
+              <h4>Flexible Engagement Models</h4>
+              <p>Onsite and offshore options &mdash; work in a way that fits your expertise and the Oracle project requirements.</p>
             </div>
           </div>
+          <div class="perk">
+            <div class="perk-ic">&#127942;</div>
+            <div>
+              <h4>Enterprise-Scale Oracle &amp; AI Projects</h4>
+              <p>Work directly with Fortune 1000 companies and government agencies on high-impact Oracle Fusion, OCI, and AI implementations.</p>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-ic">&#128218;</div>
+            <div>
+              <h4>Oracle Certifications &amp; AI Growth</h4>
+              <p>Stay at the cutting edge with Oracle Fusion Cloud, OCI, and AI technology &mdash; we support your certification and learning journey.</p>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-ic">&#129309;</div>
+            <div>
+              <h4>Collaborative Expert Culture</h4>
+              <p>A results-oriented Oracle and AI team that values deep expertise, accountability, and client success above all.</p>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-ic">&#128203;</div>
+            <div>
+              <h4>Written Quality Standards</h4>
+              <p>We hold ourselves to the highest Oracle implementation standards &mdash; every project comes with our written quality warranty.</p>
+            </div>
+          </div>
         </div>
-        <div class="apply-form-box">
-          <h3>Submit Your Application</h3>
-          <form id="applyForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <div class="form-row">
-              <div class="form-group">
-                <label for="appFirstName">First Name *</label>
-                <input type="text" id="appFirstName" name="firstName" required placeholder="Jane" />
-              </div>
-              <div class="form-group">
-                <label for="appLastName">Last Name *</label>
-                <input type="text" id="appLastName" name="lastName" required placeholder="Doe" />
-              </div>
+      </div>
+
+      <div class="apply-form-box fade-up">
+        <h3>Submit Your Application</h3>
+        <form id="applyForm" action="https://formspree.io/f/mdavegvz" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="appFirstName">First Name *</label>
+              <input type="text" id="appFirstName" name="firstName" required placeholder="Jane" />
             </div>
             <div class="form-group">
-              <label for="appEmail">Email Address *</label>
-              <input type="email" id="appEmail" name="email" required placeholder="jane@email.com" />
+              <label for="appLastName">Last Name *</label>
+              <input type="text" id="appLastName" name="lastName" required placeholder="Doe" />
             </div>
-            <div class="form-group">
-              <label for="appPhone">Phone Number</label>
-              <input type="tel" id="appPhone" name="phone" placeholder="+1 (555) 000-0000" />
-            </div>
-            <div class="form-group">
-              <label for="appRole">Role of Interest *</label>
-              <select id="appRole" name="role" required>
-                <option value="">Select a role&hellip;</option>
-                <option value="erp-consultant">ERP Consultant</option>
-                <option value="cloud-architect">Cloud Architect</option>
-                <option value="ai-engineer">AI / ML Engineer</option>
-                <option value="project-manager">Project Manager</option>
-                <option value="business-analyst">Business Analyst</option>
-                <option value="devops">DevOps Engineer</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="appExperience">Years of Experience</label>
-              <select id="appExperience" name="experience">
-                <option value="">Select&hellip;</option>
-                <option value="0-2">0&ndash;2 years</option>
-                <option value="3-5">3&ndash;5 years</option>
-                <option value="6-10">6&ndash;10 years</option>
-                <option value="10+">10+ years</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="appLinkedin">LinkedIn Profile</label>
-              <input type="url" id="appLinkedin" name="linkedin" placeholder="https://linkedin.com/in/yourname" />
-            </div>
-            <div class="form-group">
-              <label for="appMessage">Tell Us About Yourself *</label>
-              <textarea id="appMessage" name="message" required placeholder="Describe your background, key skills, and what you&rsquo;re looking for&hellip;"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Submit Application &rarr;</button>
-          </form>
-        </div>
+          </div>
+          <div class="form-group">
+            <label for="appEmail">Email Address *</label>
+            <input type="email" id="appEmail" name="email" required placeholder="jane@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="appPhone">Phone Number</label>
+            <input type="tel" id="appPhone" name="phone" placeholder="+1 (555) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="appRole">Specialization *</label>
+            <select id="appRole" name="role" required>
+              <option value="">Select your expertise&hellip;</option>
+              <option value="fusion-erp">Oracle Fusion ERP Cloud</option>
+              <option value="fusion-hcm">Oracle HCM Cloud</option>
+              <option value="fusion-scm">Oracle SCM Cloud</option>
+              <option value="fusion-epm">Oracle EPM / Analytics</option>
+              <option value="oci-architect">OCI Architect</option>
+              <option value="oic">Oracle Integration Cloud (OIC)</option>
+              <option value="ebs">Oracle E-Business Suite</option>
+              <option value="ai-consultant">AI Consultant</option>
+              <option value="techdev">Oracle Technical Developer</option>
+              <option value="pm">Oracle / AI Project Manager</option>
+              <option value="other">Other Role</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="appExperience">Years of Experience</label>
+            <select id="appExperience" name="experience">
+              <option value="">Select&hellip;</option>
+              <option value="0-2">0&ndash;2 years</option>
+              <option value="3-5">3&ndash;5 years</option>
+              <option value="6-10">6&ndash;10 years</option>
+              <option value="10+">10+ years</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="appLinkedin">LinkedIn Profile</label>
+            <input type="url" id="appLinkedin" name="linkedin" placeholder="https://linkedin.com/in/yourname" />
+          </div>
+          <div class="form-group">
+            <label for="appMessage">Tell Us About Your Experience *</label>
+            <textarea id="appMessage" name="message" required placeholder="Describe your Oracle Cloud or AI experience, key implementations, certifications, and what you&rsquo;re looking for&hellip;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Submit Application &rarr;</button>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo.jpg" alt="Bespoke AI Technologies" style="height:48px;" />
-          </a>
-          <p>A full-service AI and IT consulting firm serving mid-sized and Fortune 1000 companies with tailored technology solutions. Based in North Carolina.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="it-services.html">IT Services</a></li>
-            <li><a href="erp.html">ERP Solutions</a></li>
-            <li><a href="cloud.html">Cloud Architecture</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Company</h4>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="apply.html">Careers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="contact.html">Get Support</a></li>
-            <li><a href="contact.html">Request a Demo</a></li>
-          </ul>
-        </div>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-id">
+          <img src="images/favicon.jpg" class="footer-favicon" alt="Bespoke AI Technologies" />
+          <span class="footer-brand-name">
+            <span class="footer-brand-main">BESPOKE AI</span>
+            <span class="footer-brand-sub">TECHNOLOGIES</span>
+          </span>
+        </a>
+        <p>Oracle Fusion Cloud and OCI specialists &mdash; empowering your business with tailored AI and expert guidance.</p>
       </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
-        <span>North Carolina, USA</span>
+      <div class="footer-col">
+        <h4>Oracle Solutions</h4>
+        <ul>
+          <li><a href="oracle-fusion.html">Oracle Fusion Cloud</a></li>
+          <li><a href="oci.html">OCI Infrastructure</a></li>
+          <li><a href="cloud.html">Cloud &amp; Integration</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>AI Consulting</h4>
+        <ul>
+          <li><a href="ai-consulting.html">AI Readiness</a></li>
+          <li><a href="ai-consulting.html#agents">AI Agents</a></li>
+          <li><a href="ai-consulting.html#genai">Generative AI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Open Roles</h4>
+        <ul>
+          <li><a href="apply.html">Oracle ERP Consultant</a></li>
+          <li><a href="apply.html">OCI Architect</a></li>
+          <li><a href="apply.html">HCM Specialist</a></li>
+          <li><a href="apply.html">AI Consultant</a></li>
+        </ul>
       </div>
     </div>
-  </footer>
-
-  <script src="js/main.js"></script>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+      <div class="footer-badges">
+        <span class="footer-badge">Oracle Specialists</span>
+        <span class="footer-badge">OCI Certified</span>
+        <span class="footer-badge">AI Consulting</span>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>
