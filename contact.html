@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Bespoke AI Technologies Inc</title>
+  <meta name="description" content="Get in touch with Bespoke AI Technologies. We&rsquo;re based in North Carolina and serve clients nationwide." />
+  <link rel="icon" type="image/jpeg" href="images/favicon.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.jpg" alt="Bespoke AI Technologies" />
+      </a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <span class="dropdown-trigger">IT Services &#9662;</span>
+          <div class="dropdown-menu">
+            <a href="it-services.html">All Services</a>
+            <a href="erp.html">ERP Solutions</a>
+            <a href="cloud.html">Cloud Architecture &amp; Integration</a>
+          </div>
+        </li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apply.html" class="nav-cta">Apply &rarr;</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-label">Get in Touch</p>
+      <h1>Contact Us</h1>
+      <p>Ready to transform your business? Let&rsquo;s have a conversation about your goals and how we can help.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Let&rsquo;s Start a Conversation</h2>
+          <p>Whether you&rsquo;re exploring ERP modernization, cloud migration, or AI strategy &mdash; we&rsquo;d love to hear from you. Our team typically responds within one business day.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="detail-icon">&#128205;</div>
+              <div>
+                <h4>Location</h4>
+                <span>North Carolina, USA</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="detail-icon">&#128231;</div>
+              <div>
+                <h4>Email</h4>
+                <span>info@bespokeaitechnologies.com</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="detail-icon">&#127760;</div>
+              <div>
+                <h4>Website</h4>
+                <span>www.bespokeaitechnologies.com</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="detail-icon">&#128336;</div>
+              <div>
+                <h4>Response Time</h4>
+                <span>Within 1 business day</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-box">
+          <h3 style="font-size:1.3rem; font-weight:700; color:var(--navy); margin-bottom:28px;">Send Us a Message</h3>
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required placeholder="John" />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required placeholder="Smith" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Work Email *</label>
+                <input type="email" id="email" name="email" required placeholder="john@company.com" />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" placeholder="Acme Corp" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service of Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service&hellip;</option>
+                <option value="erp">ERP Solutions</option>
+                <option value="cloud">Cloud Architecture &amp; Integration</option>
+                <option value="strategy">Strategy &amp; Consulting</option>
+                <option value="support">IT Support</option>
+                <option value="resources">Resource Management</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about your project or goals&hellip;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message &rarr;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <img src="images/logo.jpg" alt="Bespoke AI Technologies" style="height:48px;" />
+          </a>
+          <p>A full-service AI and IT consulting firm serving mid-sized and Fortune 1000 companies with tailored technology solutions. Based in North Carolina.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="it-services.html">IT Services</a></li>
+            <li><a href="erp.html">ERP Solutions</a></li>
+            <li><a href="cloud.html">Cloud Architecture</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="apply.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Get Support</a></li>
+            <li><a href="contact.html">Request a Demo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+        <span>North Carolina, USA</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
