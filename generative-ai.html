@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generative AI & Models: RAG, Fine-Tuning, SLMs | Bespoke AI Technologies</title>
+  <meta name="description" content="We build generative AI for your business: RAG systems, fine-tuned LLMs, small language models and agentic apps, evaluated on your data and run in production." />
+  <!--seo-->
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#030811" />
+  <link rel="canonical" href="https://www.bespokeaitechnologies.com/generative-ai.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Bespoke AI Technologies" />
+  <meta property="og:title" content="Generative AI & Models: RAG, Fine-Tuning, SLMs | Bespoke AI Technologies" />
+  <meta property="og:description" content="We build generative AI for your business: RAG systems, fine-tuned LLMs, small language models and agentic apps, evaluated on your data and run in production." />
+  <meta property="og:url" content="https://www.bespokeaitechnologies.com/generative-ai.html" />
+  <meta property="og:image" content="https://www.bespokeaitechnologies.com/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Generative AI & Models: RAG, Fine-Tuning, SLMs | Bespoke AI Technologies" />
+  <meta name="twitter:description" content="We build generative AI for your business: RAG systems, fine-tuned LLMs, small language models and agentic apps, evaluated on your data and run in production." />
+  <meta name="twitter:image" content="https://www.bespokeaitechnologies.com/images/og-image.jpg" />
+  <!--/seo-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=4360df77" />
+  <link rel="stylesheet" href="css/v2.css?v=ca392159" />
+  <link rel="stylesheet" href="css/ai-inside.css?v=701759aa" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="images/mark-96.png" width="36" height="36" class="nav-favicon" alt="Bespoke AI Technologies" />
+      <span class="nav-brand-name"><span class="brand-main">BESPOKE AI</span><span class="brand-sub">TECHNOLOGIES</span></span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li class="dropdown">
+        <span class="drop-trigger">AI Engineering &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">What we build</div>
+          <a href="generative-ai.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#sparkles"/></svg></span> Generative AI &amp; Models</a>
+          <a href="agentic-ai.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#agent"/></svg></span> Agentic AI &amp; Tools</a>
+          <a href="ecommerce-erp.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#cart"/></svg></span> E-commerce &amp; ERP</a>
+          <a href="internal-tools.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#workflow"/></svg></span> Internal Operations Tools</a>
+          <a href="custom-software.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#code"/></svg></span> Custom Software &amp; Integration</a>
+          <a href="services.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#bars"/></svg></span> All services</a>
+          <div class="drop-label" style="margin-top:8px;">How we work</div>
+          <a href="agents.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#compass"/></svg></span> Forward Deployed Engineers</a>
+        </div>
+      </li>
+      <li><a href="managed-it.html">Managed IT &amp; Hosting</a></li>
+      <li class="dropdown">
+        <span class="drop-trigger">Oracle Practice &#9662;</span>
+        <div class="drop-menu">
+          <div class="drop-label">Cloud Applications</div>
+          <a href="oracle-fusion.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#cloud"/></svg></span> Oracle Fusion Cloud</a>
+          <a href="oracle-fusion.html#erp"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#trend"/></svg></span> Oracle ERP Cloud</a>
+          <a href="oracle-fusion.html#hcm"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#people"/></svg></span> Oracle HCM Cloud</a>
+          <a href="oracle-fusion.html#scm"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#package"/></svg></span> Oracle SCM Cloud</a>
+          <a href="oracle-fusion.html#epm"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#bars"/></svg></span> Oracle EPM Cloud</a>
+          <div class="drop-label" style="margin-top:8px;">Infrastructure &amp; AI</div>
+          <a href="oci.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#server"/></svg></span> Oracle Cloud Infrastructure</a>
+          <a href="cloud.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#nodes"/></svg></span> Cloud &amp; Integration</a>
+          <a href="ai-consulting.html"><span class="icon"><svg class="i" aria-hidden="true"><use href="images/icons.svg#sparkles"/></svg></span> AI Consulting</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="contact.html" class="nav-cta">Talk to us &rarr;</a></li>
+    </ul>
+  </div>
+</nav>
+<section class="page-hero"><div class="ph-grid"></div><div class="ph-glow"></div>
+  <div class="container ph-inner"><span class="label">AI Engineering &middot; Generative AI &amp; Models</span>
+    <h1>Generative AI, <span class="gradient-text">built around your data</span></h1>
+    <p>RAG systems, fine-tuned LLMs, small language models and agentic apps. We choose the right approach for the job, prove it on your real cases, and run it in production.</p>
+    <div class="ph-actions"><a href="contact.html" class="btn btn-primary">Scope a model project &rarr;</a><a href="#capabilities" class="btn btn-white-outline">See what we build</a></div>
+    <div class="jump"><a href="#rag">RAG</a><a href="#finetune">Fine-tuning</a><a href="#slm">Small models</a><a href="#apps">Agentic apps</a><a href="#evals">Evaluation</a><a href="#private">Private hosting</a></div></div></section>
+
+<section class="section bg-white"><div class="container"><div class="two-col">
+  <div class="reveal-l"><span class="label">Our approach</span>
+    <h2 style="font-size:clamp(1.7rem,2.5vw,2.5rem);margin-bottom:16px;">The right model for the job, not the biggest one</h2>
+    <p style="color:var(--txt-2);line-height:1.8;margin-bottom:14px;">Most business problems don&rsquo;t need a frontier model. Some need retrieval over your documents. Some need a model tuned to your language and format. Some are better served by a small, fast model you run yourself.</p>
+    <p style="color:var(--txt-2);line-height:1.8;margin-bottom:24px;">We start with an honest baseline, build an evaluation set from your real cases, and let the evidence pick the approach. Then we put it in production and keep it healthy.</p>
+    <a href="agents.html" class="btn btn-outline">How our engineers embed &rarr;</a></div>
+  <div class="reveal-r"><div class="stat-tiles">
+    <div class="stile"><strong>Private</strong><span>Your data stays yours, in your cloud or ours</span></div>
+    <div class="stile"><strong>Right-sized</strong><span>Small models where they win on cost and speed</span></div>
+    <div class="stile"><strong>Evaluated</strong><span>Measured on your real cases, before and after</span></div>
+    <div class="stile"><strong>Operated</strong><span>Hosted, monitored and improved by us</span></div></div></div>
+</div></div></section>
+
+<section class="section sec-dark sec-glow" id="capabilities"><div class="container">
+  <div class="section-head fade-up"><span class="label">What we build</span><h2>The full generative AI toolkit</h2>
+    <p>Each is scoped to a measurable outcome and grown from a working pilot.</p></div>
+  <div data-tabs class="fade-up">
+    <div class="tabs-nav" role="tablist">
+      <button class="tab-btn" data-tab="rag" role="tab"><svg class="i" aria-hidden="true"><use href="images/icons.svg#search"/></svg> RAG &amp; knowledge</button>
+      <button class="tab-btn" data-tab="finetune" role="tab"><svg class="i" aria-hidden="true"><use href="images/icons.svg#sparkles"/></svg> Fine-tuning LLMs</button>
+      <button class="tab-btn" data-tab="slm" role="tab"><svg class="i" aria-hidden="true"><use href="images/icons.svg#bolt"/></svg> Small language models</button>
+      <button class="tab-btn" data-tab="apps" role="tab"><svg class="i" aria-hidden="true"><use href="images/icons.svg#agent"/></svg> Agentic apps</button>
+      <button class="tab-btn" data-tab="evals" role="tab"><svg class="i" aria-hidden="true"><use href="images/icons.svg#check"/></svg> Evaluation &amp; LLMOps</button>
+      <button class="tab-btn" data-tab="private" role="tab"><svg class="i" aria-hidden="true"><use href="images/icons.svg#lock"/></svg> Private hosting</button>
+    </div>
+    <div class="tab-panel tp-grid" data-tab="rag"><div><span class="tg">Retrieval</span><h3>RAG &amp; knowledge systems</h3><p>Answers grounded in your own documents, databases and tickets, with citations and permissions, so people trust what they read and can check it.</p></div>
+      <div class="cap-list"><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#database"/></svg> Ingestion and cleaning pipelines</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#search"/></svg> Hybrid and vector search</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#lock"/></svg> Permission-aware retrieval</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#doc"/></svg> Citations and source links</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#cycle"/></svg> Freshness and re-indexing</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#shield"/></svg> Hallucination and leakage checks</div></div></div>
+    <div class="tab-panel tp-grid" data-tab="finetune"><div><span class="tg">Adaptation</span><h3>Fine-tuning LLMs</h3><p>When prompting and retrieval aren&rsquo;t enough, we adapt a model to your domain, tone, formats and tasks, and prove it beats the baseline on your data.</p></div>
+      <div class="cap-list"><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#database"/></svg> Training-data curation and labeling</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#sparkles"/></svg> Supervised and preference tuning</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#layout"/></svg> Parameter-efficient methods (LoRA)</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#target"/></svg> Domain and format adaptation</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#check"/></svg> Before/after evaluation</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#shield"/></svg> Safety and regression testing</div></div></div>
+    <div class="tab-panel tp-grid" data-tab="slm"><div><span class="tg">Efficiency</span><h3>Small language models (SLMs)</h3><p>Compact models that are fast, cheap to run and easy to keep private. Ideal for high-volume, well-defined tasks like classification, extraction and routing.</p></div>
+      <div class="cap-list"><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#bolt"/></svg> Task-specific small models</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#cycle"/></svg> Distillation from larger models</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#package"/></svg> Quantization for cheap inference</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#server"/></svg> Run on your hardware or OCI GPUs</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#coins"/></svg> Cost-per-call that stays predictable</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#lock"/></svg> Data never leaves your boundary</div></div></div>
+    <div class="tab-panel tp-grid" data-tab="apps"><div><span class="tg">Applications</span><h3>Agentic apps</h3><p>Full applications built around models and agents: planning, tool use, memory and human approvals, wrapped in the interface your people actually use.</p><a href="agentic-ai.html" class="btn btn-primary">Agentic AI in depth &rarr;</a></div>
+      <div class="cap-list"><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#agent"/></svg> Multi-step agents with tool use</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#workflow"/></svg> Orchestration and approvals</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#chat"/></svg> Chat and embedded copilots</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#nodes"/></svg> Connected to ERP, CRM and APIs</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#doc"/></svg> Document and form automation</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#bars"/></svg> Usage, quality and cost dashboards</div></div></div>
+    <div class="tab-panel tp-grid" data-tab="evals"><div><span class="tg">Quality</span><h3>Evaluation &amp; LLMOps</h3><p>The difference between a demo and a product. We build the test sets, metrics and monitoring that keep generative systems accurate, safe and affordable over time.</p></div>
+      <div class="cap-list"><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#target"/></svg> Eval sets built from your real cases</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#check"/></svg> Automated regression in CI</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#shield"/></svg> Red-teaming and guardrails</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#trend"/></svg> Drift and quality monitoring</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#coins"/></svg> Cost and latency tracking</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#cycle"/></svg> Prompt and model versioning</div></div></div>
+    <div class="tab-panel tp-grid" data-tab="private"><div><span class="tg r">Deployment</span><h3>Private and on-prem hosting</h3><p>Run models where your data lives: in your tenancy, on OCI GPU capacity, or on-premises. We deploy, scale and operate the whole stack as a managed service.</p><a href="managed-it.html" class="btn btn-primary">Managed IT &amp; hosting &rarr;</a></div>
+      <div class="cap-list"><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#server"/></svg> GPU capacity on OCI and other clouds</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#lock"/></svg> Private networking and access control</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#package"/></svg> Model serving and autoscaling</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#shield"/></svg> Compliance-minded architecture</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#headset"/></svg> 24x7 monitoring and support</div><div class="cap"><svg class="i" aria-hidden="true"><use href="images/icons.svg#cloud"/></svg> Hybrid with hosted frontier models</div></div></div>
+  </div></div></section>
+
+<section class="section bg-gray"><div class="container">
+  <div class="section-head fade-up"><span class="label">Which approach?</span><h2>An honest guide to choosing</h2>
+    <p>We recommend the simplest option that works. Often that&rsquo;s the first one.</p></div>
+  <div class="bento fade-up">
+    <div class="spot"><div class="ico"><svg class="i" aria-hidden="true"><use href="images/icons.svg#search"/></svg></div><h3>Start with RAG</h3><p>If the model needs to know your documents or data, retrieval is usually faster, cheaper and easier to keep current than training.</p></div>
+    <div class="spot"><div class="ico"><svg class="i" aria-hidden="true"><use href="images/icons.svg#sparkles"/></svg></div><h3>Fine-tune when behavior matters</h3><p>When you need a consistent style, format or specialist skill that prompting can&rsquo;t deliver reliably, tuning earns its cost.</p></div>
+    <div class="spot"><div class="ico"><svg class="i" aria-hidden="true"><use href="images/icons.svg#bolt"/></svg></div><h3>Go small for scale and privacy</h3><p>For high-volume, narrow tasks, an SLM can match a large model at a fraction of the cost, and run entirely inside your boundary.</p></div>
+  </div></div></section>
+
+<section class="section bg-white"><div class="container">
+  <div class="section-head fade-up"><span class="label">How a project runs</span><h2>From data audit to production</h2></div>
+  <div class="tl fade-up">
+    <div class="tl-item"><div class="tl-num">01</div><div><h4>Audit the data</h4><p>What you have, where it lives, who can see it, and what&rsquo;s clean enough to use. This often decides the approach.</p></div></div>
+    <div class="tl-item"><div class="tl-num">02</div><div><h4>Baseline and eval set</h4><p>We build a test set from your real cases and measure a simple baseline, so every later gain is real.</p></div></div>
+    <div class="tl-item"><div class="tl-num">03</div><div><h4>Build the system</h4><p>RAG pipeline, fine-tune, small model or agentic app, whichever the evidence supports.</p></div></div>
+    <div class="tl-item"><div class="tl-num">04</div><div><h4>Harden</h4><p>Guardrails, red-teaming, permissions, cost limits and a human review path for risky outputs.</p></div></div>
+    <div class="tl-item"><div class="tl-num">05</div><div><h4>Deploy and operate</h4><p>We host it, monitor quality and cost, and retrain or re-index as your data and needs change.</p></div></div>
+  </div></div></section>
+
+<section class="section sec-dark"><div class="container"><div class="two-col">
+  <div class="reveal-l"><span class="label">Reference architecture</span>
+    <h2 style="font-size:clamp(1.7rem,2.5vw,2.5rem);margin-bottom:16px;">Model-agnostic, so you&rsquo;re never locked in</h2>
+    <p style="color:rgba(255,255,255,.62);line-height:1.8;margin-bottom:18px;">We mix hosted frontier models, open-weight models and small models in one system, routing each task to the cheapest model that meets the quality bar. Swapping a model is configuration, not a rewrite.</p>
+    <div class="chips" style="justify-content:flex-start"><span class="chip">Open-weight models</span><span class="chip">Anthropic Claude</span><span class="chip">OCI Generative AI</span><span class="chip">OpenAI</span><span class="chip">Vector search in Oracle ATP</span><span class="chip">LoRA / distillation</span></div></div>
+  <div class="reveal-r"><div class="stackviz">
+    <div class="layer l1"><div><b>Apps &amp; agents</b><br/><span>Chat, copilots, workflows, APIs</span></div><div class="pills"><em>UI</em><em>Agents</em></div></div>
+    <div class="layer l2"><div><b>Retrieval &amp; orchestration</b><br/><span>RAG, routing, tools, guardrails</span></div><div class="pills"><em>RAG</em><em>Router</em></div></div>
+    <div class="layer l3"><div><b>Models</b><br/><span>Frontier, fine-tuned, small</span></div><div class="pills"><em>LLM</em><em>SLM</em></div></div>
+    <div class="layer"><div><b>Data &amp; evaluation</b><br/><span>Pipelines, vectors, evals, monitoring</span></div><div class="pills"><em>Data</em><em>Evals</em></div></div></div></div>
+</div></div></section>
+
+<section class="section bg-white"><div class="container"><div class="section-head fade-up"><span class="label">Related</span><h2>Where models fit in the bigger picture</h2></div>
+  <div class="bento fade-up">
+    <a class="spot" href="agentic-ai.html"><div class="ico"><svg class="i" aria-hidden="true"><use href="images/icons.svg#agent"/></svg></div><h3>Agentic AI &amp; tools</h3><p>Agents that use these models to finish real work across your systems.</p><span class="more">Agentic AI &rarr;</span></a>
+    <a class="spot" href="ai-consulting.html"><div class="ico"><svg class="i" aria-hidden="true"><use href="images/icons.svg#target"/></svg></div><h3>AI consulting</h3><p>Readiness assessment and a blueprint before you build.</p><span class="more">AI consulting &rarr;</span></a>
+    <a class="spot" href="managed-it.html"><div class="ico"><svg class="i" aria-hidden="true"><use href="images/icons.svg#server"/></svg></div><h3>Managed IT &amp; hosting</h3><p>We host and operate your models, GPUs and pipelines.</p><span class="more">Managed IT &rarr;</span></a>
+  </div></div></section>
+
+<section class="section cta-section"><div class="container"><div class="cta-inner fade-up">
+  <img class="cta-mark" src="images/mark-gold.webp" alt="" aria-hidden="true" width="56" height="56" loading="lazy" />
+  <span class="label label-white">Let&rsquo;s build</span><h2>Tell us what your data should be able to do</h2>
+  <p>We&rsquo;ll help you pick the right approach, prove it on your real cases, and put it into production.</p>
+  <div class="cta-actions"><a href="contact.html" class="btn btn-primary">Scope a model project &rarr;</a><a href="agentic-ai.html" class="btn btn-white-outline">Agentic AI</a></div>
+</div></div></section>
+
+<footer>
+  <img class="ft-mark" src="images/mark-white.webp" alt="" aria-hidden="true" width="300" height="300" loading="lazy" />
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-brand-id">
+          <img src="images/mark-96.png" width="34" height="34" class="footer-favicon" alt="Bespoke AI Technologies" />
+          <span class="footer-brand-name"><span class="footer-brand-main">BESPOKE AI</span><span class="footer-brand-sub">TECHNOLOGIES</span></span>
+        </a>
+        <p>An AI-native engineering partner. Everything we build is agentic by design: generative AI, agents and the software around them, hosted and run by us, with deep Oracle expertise behind it.</p>
+      </div>
+      <div class="footer-col"><h4>AI Engineering</h4><ul>
+        <li><a href="generative-ai.html">Generative AI &amp; Models</a></li>
+        <li><a href="agentic-ai.html">Agentic AI</a></li>
+        <li><a href="ecommerce-erp.html">E-commerce &amp; ERP</a></li>
+        <li><a href="internal-tools.html">Internal Tools</a></li>
+        <li><a href="custom-software.html">Custom Software</a></li>
+        <li><a href="agents.html">Forward Deployed Engineers</a></li>
+        <li><a href="managed-it.html">Managed IT &amp; Hosting</a></li></ul></div>
+      <div class="footer-col"><h4>Oracle Practice</h4><ul>
+        <li><a href="oracle-fusion.html">Oracle Fusion Cloud</a></li>
+        <li><a href="oci.html">OCI Infrastructure</a></li>
+        <li><a href="cloud.html">Cloud &amp; Integration</a></li>
+        <li><a href="ai-consulting.html">AI Consulting</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bespoke AI Technologies Inc. All rights reserved.</span>
+      <div class="footer-badges"><span class="footer-badge">AI Engineering</span><span class="footer-badge">Managed IT</span><span class="footer-badge">Oracle Specialists</span></div>
+    </div>
+  </div>
+</footer>
+<script src="js/config.js?v=6d5432de"></script>
+<script src="js/api.js?v=861137f5"></script>
+<script src="js/main.js?v=186f5c4c"></script>
+<script src="js/v2.js?v=a15dae77"></script>
+</body>
+</html>
